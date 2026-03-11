@@ -1,0 +1,36 @@
+<Patch>
+
+<!-- ==================== Wintermute - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="SCWintermuteBlueprint"]/label</xpath>
+                    <value>
+                        <label>Snowcrawler</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="SCWintermuteBlueprint"]/description</xpath>
+                    <value>
+                        <description>A slow vehicle designed to traverse snow and winter terrain without trouble. Its engine makes a lot of noise though.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Wintermute - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="SCWintermute"]/label</xpath>
+                    <value>
+                        <label>Snowcrawler</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="SCWintermute"]/description</xpath>
+                    <value>
+                        <description>A slow vehicle designed to traverse snow and winter terrain without trouble. Its engine makes a lot of noise though.</description>
+                    </value>
+                </Operation>
+
+                <!--Operation Class="PatchOperationRemove">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="SCWintermute"]/nameable</xpath>
+                </Operation-->
+
+</Patch>

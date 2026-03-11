@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+
+
+
+<!-- Research patches -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Smuggler_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_Aeroplane</li></researchPrerequisites>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Mosquito_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_Helicopter</li></researchPrerequisites>
+                    </value>
+                </Operation>
+
+
+
+
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Tango_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_APC</li></researchPrerequisites>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Warbird_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_FighterPlane</li></researchPrerequisites>
+                    </value>
+                </Operation>
+
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Wisent_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_FieldCarrier</li></researchPrerequisites>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Bulldog_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_MediumTank</li></researchPrerequisites>
+                    </value>
+                </Operation>
+
+
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Mosquito_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_Helicopter</li></researchPrerequisites>
+                    </value>
+                </Operation>
+
+
+
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Trawler"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_LargeBoat</li></researchPrerequisites>
+                    </value>
+                </Operation>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- LYN's renames -->
+
+
+
+<!-- ==================== Bulldog - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Bulldog"]/label</xpath>
+                    <value>
+                        <label>Medium tank</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Bulldog"]/description</xpath>
+                    <value>
+                        <description>A standard battletank with decent armor in all sides, with the thinnest plating at the rear. Has a medium fuel efficiency, performs better in difficult terrain, and is quite visible.</description>
+                    </value>
+                </Operation>
+
+
+<!-- ==================== Bulldog - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Bulldog_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Medium tank</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Bulldog_Blueprint"]/description</xpath>
+                    <value>
+                        <description>A standard battletank with decent armor in all sides, with the thinnest plating at the rear. Has a medium fuel efficiency, performs better in difficult terrain, and is quite visible.</description>
+                    </value>
+                </Operation>
+
+
+<!-- ==================== Charley - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Charley"]/label</xpath>
+                    <value>
+                        <label>Motorcycle</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Charley"]/description</xpath>
+                    <value>
+                        <description>A motorcycle that can quickly and discretely transport a single person and a small amount of cargo. Has a good fuel efficiency in the world map, and can move well in any terrain except snow, or during winter.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Charley - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Charley_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Motorcycle</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Charley_Blueprint"]/description</xpath>
+                    <value>
+                        <description>A motorcycle that can quickly and discretely transport a single person and a small amount of cargo. Has a good fuel efficiency in the world map, and can move well in any terrain except snow, or during winter.</description>
+                    </value>
+                </Operation>
+
+<!-- ==================== Mosquito - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Mosquito"]/label</xpath>
+                    <value>
+                        <label>Helicopter</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Mosquito"]/description</xpath>
+                    <value>
+                        <description>A basic aircraft that doesn't require a landing strip, but can transport people very quickly. It has less cargo capacity and speed than airplanes. While it's very fuel-efficient, it's very easy to spot when on the move.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Mosquito - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Mosquito_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Helicopter</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Mosquito_Blueprint"]/description</xpath>
+                    <value>
+                        <description>A basic aircraft that doesn't require a landing strip, but can transport people very quickly. It has less cargo capacity and speed than airplanes. While it's very fuel-efficient, it's very easy to spot when on the move.</description>
+                    </value>
+                </Operation>
+
+
+<!-- ==================== Roadrunner - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Roadrunner"]/label</xpath>
+                    <value>
+                        <label>Pick-up car</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Roadrunner"]/description</xpath>
+                    <value>
+                        <description>A fast car with high cargo capacity and great fuel efficiency on the world map. Good for traveling on flat roads, but will struggle on hills, snow or winter.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Roadrunner - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Roadrunner_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Pick-up car</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Roadrunner_Blueprint"]/description</xpath>
+                    <value>
+                        <description>A fast car with high cargo capacity and great fuel efficiency on the world map. Good for traveling on flat roads, but will struggle on hills, snow or winter.</description>
+                    </value>
+                </Operation>
+
+
+<!-- ==================== Smuggler - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Smuggler"]/label</xpath>
+                    <value>
+                        <label>Aeroplane</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Smuggler"]/description</xpath>
+                    <value>
+                        <description>A small airplane that moves extremely fast and can carry more cargo than an helicopter, but requires a landing strip. It is very visible, like any aircraft. It has a regular fuel efficiency on the world map, but makes up for it in speed.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Smuggler - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Smuggler_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Aeroplane</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Smuggler_Blueprint"]/description</xpath>
+                    <value>
+                        <description>A small airplane that moves extremely fast and can carry more cargo than an helicopter, but requires a landing strip and it's very visible, like any aircraft. Has a regular fuel efficiency on the world map, but makes up for it in speed.</description>
+                    </value>
+                </Operation>
+
+<!-- ==================== Snatcher - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Snatcher"]/label</xpath>
+                    <value>
+                        <label>Large van</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Snatcher"]/description</xpath>
+                    <value>
+                        <description>A large van with very high passenger capacity, great fuel efficiency and lower visibility. However, it will struggle a lot in hills, snow and winter.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Snatcher - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Snatcher_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Large van</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Snatcher_Blueprint"]/description</xpath>
+                    <value>
+                        <description>A large van with very high passenger capacity, great fuel efficiency and lower visibility. However, it will struggle a lot in hills, snow and winter.</description>
+                    </value>
+                </Operation>
+
+<!-- ==================== Tango - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Tango"]/label</xpath>
+                    <value>
+                        <label>Armored personnel carrier</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Tango"]/description</xpath>
+                    <value>
+                        <description>An armored vehicle with hardened armor, good cargo capacity and all-terrain support. However, it's slow, very visible, and not very fuel-efficient, and has a slightly lower defense on the rear.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Tango - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Tango_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Armored personnel carrier</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Tango_Blueprint"]/description</xpath>
+                    <value>
+                        <description>An armored vehicle with hardened armor, good cargo capacity and all-terrain support. However, it's slow, very visible, and not very fuel-efficient, and has a slightly lower defense on the rear.</description>
+                    </value>
+                </Operation>
+
+
+<!-- ==================== Trawler - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Trawler"]/label</xpath>
+                    <value>
+                        <label>Large boat</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Trawler"]/description</xpath>
+                    <value>
+                        <description>A boat with high cargo capacity and good fuel efficiency. It has low visibility, but will have trouble moving on rivers or during winter.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Trawler - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Trawler_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Large boat</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Trawler_Blueprint"]/description</xpath>
+                    <value>
+                        <description>A boat with high cargo capacity and good fuel efficiency. It has low visibility, but will have trouble moving on rivers or during winter.</description>
+                    </value>
+                </Operation>
+
+
+<!-- ==================== Wagon - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Wagon"]/label</xpath>
+                    <value>
+                        <label>Family car</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Wagon"]/description</xpath>
+                    <value>
+                        <description>An all-purpose car with good passenger and cargo capacity, high fuel efficiency, and lower visibility, but it will struggle to move on hills, snow or winter tiles.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Wagon - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Wagon_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Family car</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Wagon_Blueprint"]/description</xpath>
+                    <value>
+                        <description>An all-purpose car with good passenger and cargo capacity, high fuel efficiency, and lower visibility, but it will struggle to move on hills, snow or winter tiles.</description>
+                    </value>
+                </Operation>
+
+
+
+<!-- ==================== Warbird - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Warbird"]/label</xpath>
+                    <value>
+                        <label>Fighter plane</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Warbird"]/description</xpath>
+                    <value>
+                        <description>A fast-moving plane with minimal cargo capacity, intended to engage other aircraft in battle. It has regular fuel efficiency, and is very easy to notice.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Warbird - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Warbird_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Fighter plane</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Warbird_Blueprint"]/description</xpath>
+                    <value>
+                        <description>A fast-moving plane with minimal cargo capacity, intended to engage other aircraft in battle. It has regular fuel efficiency, and is very easy to notice.</description>
+                    </value>
+                </Operation>
+
+<!-- ==================== Wisent - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Wisent"]/label</xpath>
+                    <value>
+                        <label>Field carrier</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Wisent"]/description</xpath>
+                    <value>
+                        <description>A large truck meant to deliver troops and supplies away from the base. It can move well in rough terrain, but the fuel efficiency is low, and passengers in the back will lack protection.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Wisent - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Wisent_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Field carrier</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Wisent_Blueprint"]/description</xpath>
+                    <value>
+                        <description>A large truck meant to deliver troops and supplies away from the base. It can move well in rough terrain, but the fuel efficiency is low, and passengers in the back will lack protection.</description>
+                    </value>
+                </Operation>
+
+</Patch>

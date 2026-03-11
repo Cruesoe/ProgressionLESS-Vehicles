@@ -1,0 +1,391 @@
+<Patch>
+
+<!-- ==================== Badger - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Badger_Blueprint"]/label</xpath>
+                    <value>
+                        <label>IFV</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Badger_Blueprint"]/description</xpath>
+                    <value>
+                        <description>An infantry fighting vehicle, providing protection and firepower to the many soldiers it can carry. It's also capable of launching smoke screen. The rear armor is thinner and more vulnerable.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Badger - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Badger"]/label</xpath>
+                    <value>
+                        <label>IFV</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Badger"]/description</xpath>
+                    <value>
+                        <description>An infantry fighting vehicle, providing protection and firepower to the many soldiers it can carry. It's also capable of launching smoke screen. The rear armor is thinner and more vulnerable.</description>
+                    </value>
+                </Operation>
+<!-- ====================================================================================================================== -->
+<!-- ==================== Big Rig - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_BigRig_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Cargo Truck</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_BigRig_Blueprint"]/description</xpath>
+                    <value>
+                        <description>A big all-purpose truck that can carry both people and cargo through long distances. It can move well even in rough terrain, with minor issues in the cold.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Big Rig - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_BigRig"]/label</xpath>
+                    <value>
+                        <label>Cargo Truck</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_BigRig"]/description</xpath>
+                    <value>
+                        <description>A big all-purpose truck that can carry both people and cargo through long distances. It can move well even in rough terrain, with minor issues in the cold.</description>
+                    </value>
+                </Operation>
+<!-- ====================================================================================================================== -->
+
+<!-- ==================== Cherokee - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Cherokee"]/label</xpath>
+                    <value>
+                        <label>Cargo Helicopter</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Cherokee"]/description</xpath>
+                    <value>
+                        <description>A huge tandem-rotor aircraft. It's slow and consumes a lot of fuel, but can carry tons of cargo.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Cherokee - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Cherokee_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Cargo Helicopter</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Cherokee_Blueprint"]/description</xpath>
+                    <value>
+                        <description>A huge tandem-rotor aircraft. It's slow and consumes a lot of fuel, but can carry tons of cargo.</description>                    </value>
+                </Operation>
+<!-- ====================================================================================================================== -->
+
+<!-- ==================== Hermano - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Hermano"]/label</xpath>
+                    <value>
+                        <label>Refrigerated Truck</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Hermano"]/description</xpath>
+                    <value>
+                        <description>A small truck with a refrigerated chamber that prevents perishable goods from spoiling. It suffers a lot in offroad or winter conditions.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Hermano - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Hermano_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Refrigerated Truck</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Hermano_Blueprint"]/description</xpath>
+                    <value>
+                        <description>A small truck with a refrigerated chamber that prevents perishable goods from spoiling. It suffers a lot in offroad or winter conditions.</description>
+                    </value>
+                </Operation>
+<!-- ====================================================================================================================== -->
+
+<!-- ==================== Lightning - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Lightning"]/label</xpath>
+                    <value>
+                        <label>Supercar</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Lightning"]/description</xpath>
+                    <value>
+                        <description>A modern car with respectable cargo capacity, and moves incredibly fast on flat roads. Struggles on hills and cold, and it's not very fuel-efficient.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Lightning - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Lightning_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Supercar</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Lightning_Blueprint"]/description</xpath>
+                    <value>
+                        <description>A modern car with respectable cargo capacity, and moves incredibly fast on flat roads. Struggles on hills and cold, and it's not very fuel-efficient.</description>
+                    </value>
+                </Operation>
+<!-- ====================================================================================================================== -->
+
+<!-- ==================== Louie - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Louie"]/label</xpath>
+                    <value>
+                        <label>Military Helicopter</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Louie"]/description</xpath>
+                    <value>
+                        <description>An all-purpose helicopter, with some armor to protect is passengers, useful for missions in remote areas.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Louie - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Louie_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Military Helicopter</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Louie_Blueprint"]/description</xpath>
+                    <value>
+                        <description>An all-purpose helicopter, with some armor to protect is passengers, useful for missions in remote areas.</description>
+                    </value>
+                </Operation>
+<!-- ====================================================================================================================== -->
+
+<!-- ==================== Marshal - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Marshal"]/label</xpath>
+                    <value>
+                        <label>Heavy Tank</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Marshal"]/description</xpath>
+                    <value>
+                        <description>A general-purpose battletank, fitted with a powerful main cannon and a secondary machinegun. It's slightly more armored than a medium tank, focused on battle in any kind of terrain.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Marshal - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Marshal_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Heavy Tank</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Marshal_Blueprint"]/description</xpath>
+                    <value>
+                        <description>A general-purpose battletank, fitted with a powerful main cannon and a secondary machinegun. It's slightly more armored than a medium tank, focused on battle in any kind of terrain.</description>
+                    </value>
+                </Operation>
+<!-- ====================================================================================================================== -->
+
+<!-- ==================== Nomad - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Nomad"]/label</xpath>
+                    <value>
+                        <label>Humvee</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Nomad"]/description</xpath>
+                    <value>
+                        <description>A High-Mobility Multipurpose Wheeled Vehicle (HMMWV). It's incredibly versatile, able to transport passengers and cargo, with light armor for protection. Works well in any terrain, with minor issues in winter.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Nomad - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Nomad_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Humvee</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Nomad_Blueprint"]/description</xpath>
+                    <value>
+                        <description>A High-Mobility Multipurpose Wheeled Vehicle (HMMWV). It's incredibly versatile, able to transport passengers and cargo, with light armor for protection. Works well in any terrain, with minor issues in winter.</description>
+                    </value>
+                </Operation>
+<!-- ====================================================================================================================== -->
+
+<!-- ==================== Paladin - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Paladin"]/label</xpath>
+                    <value>
+                        <label>LAV</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Paladin"]/description</xpath>
+                    <value>
+                        <description>A Lightly Armored Vehicle, with offroad capability, for quickly deploying or extracting troops in the battlefield. Has a smoke launcher to aid in retreat, but its armor isn't intended for frontline combat.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Paladin - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Paladin_Blueprint"]/label</xpath>
+                    <value>
+                        <label>LAV</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Paladin_Blueprint"]/description</xpath>
+                    <value>
+                        <description>A Lightly Armored Vehicle, with offroad capability, for quickly deploying or extracting troops in the battlefield. Has a smoke launcher to aid in retreat, but its armor isn't intended for frontline combat.</description>
+                    </value>
+                </Operation>
+<!-- ====================================================================================================================== -->
+
+<!-- ==================== Springbrook - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Springbok"]/label</xpath>
+                    <value>
+                        <label>Vintage Car</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Springbok"]/description</xpath>
+                    <value>
+                        <description>An classic and very stylish car, which provides its passengers with a mood bonus. The loud engine has high visibility and low fuel efficiency, but it has decent cargo. It will travel fast on roads, but struggle in hills and cold terrain.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Springbrook - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Springbok_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Vintage Car</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Springbok_Blueprint"]/description</xpath>
+                    <value>
+                        <description>An classic and very stylish car, which provides its passengers with a mood bonus. The loud engine has high visibility and low fuel efficiency, but it has good cargo. It will travel fast on roads, but struggle in hills and cold terrain.</description>
+                    </value>
+                </Operation>
+<!-- ====================================================================================================================== -->
+
+<!-- ==================== Udar - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Udar"]/label</xpath>
+                    <value>
+                        <label>SPG</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Udar"]/description</xpath>
+                    <value>
+                        <description>A mobile artillery vehicle (a.k.a. Self-Propelled Gun) intented to provide superior firepower at long range. It's very vulnerable to enemy attack and not fuel-efficient, but can move decently in any terrain.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Udar - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Udar_Blueprint"]/label</xpath>
+                    <value>
+                        <label>SPG</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Udar_Blueprint"]/description</xpath>
+                    <value>
+                        <description>A artillery vehicle (a.k.a. Self-Propelled Gun) intented to provide superior firepower at long range. It's very vulnerable to enemy attack and not fuel-efficient, but can move decently in any terrain.</description>
+                    </value>
+                </Operation>
+<!-- ====================================================================================================================== -->
+
+
+<!-- ==================== Burya - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Burya"]/label</xpath>
+                    <value>
+                        <label>Missile Artillery</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Burya"]/description</xpath>
+                    <value>
+                        <description>A siege vehicle that needs to be deployed before combat, but is capable of launching heavy missile attacks in the area. It's vulnerable to enemy fire, and must be operated by a two-man crew to keep up its fast firing speed.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Burya - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Burya_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Missile Artillery</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Burya_Blueprint"]/description</xpath>
+                    <value>
+                        <description>A siege vehicle that needs to be deployed before combat, but is capable of launching heavy missile attacks in the area. It's vulnerable to enemy fire, and must be operated by a two-man crew to keep up its fast firing speed.</description>
+                    </value>
+                </Operation>
+				
+
+<!-- ==================== Goliath - Vehicle Pawn ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Goliath"]/label</xpath>
+                    <value>
+                        <label>Heavy Siege Pod</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Goliath"]/description</xpath>
+                    <value>
+                        <description>An extremely well-armored version of the siege pod, able to withstand a lot of attacks and equipped with four machineguns and a rocket launcher. Can drop on enemy territory to serve as an instant bunker or even a mobile base. It's very visible when traveling, and requires several rockets to lift it up, which must be rebuilt in order to leave the area again.</description>
+                    </value>
+                </Operation>
+<!-- ==================== Goliath - Blueprint ==================== -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Goliath_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Heavy Siege Pod</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Goliath_Blueprint"]/description</xpath>
+                    <value>
+                        <description>An extremely well-armored version of the siege pod, able to withstand a lot of attacks and equipped with four machineguns and a rocket launcher. Can drop on enemy territory to serve as an instant bunker or even a mobile base. It's very visible when traveling, and requires several rockets to lift it up, which must be rebuilt in order to leave the area again.</description>
+                    </value>
+                </Operation>
+<!-- ====================================================================================================================== -->
+</Patch>

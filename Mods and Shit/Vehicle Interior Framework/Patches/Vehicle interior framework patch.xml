@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>              
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="Research_RVwithPD"]/label</xpath>
+                    <value>
+                        <label>Motorhome</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="Research_RVwithPD"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="Research_RVwithPD"]/prerequisites</xpath>
+                    <value>
+                        <prerequisites>
+                            <li>VVE_BasicVehicles</li>
+                        </prerequisites>
+                    </value>
+                </Operation>
+
+
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="RVwithPD_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Motorhome</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="RVwithPD_Blueprint"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="RVwithPD"]/label</xpath>
+                    <value>
+                        <label>Motorhome</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="RVwithPD"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </Operation>
+
+
+</Patch>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ResearchProjectDef>
+		<defName>Ferny_UtilityVehicle</defName>
+		<label>Utility vehicle</label>
+		<description>Utility vehicle</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>30.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>VVE_BasicVehicles</li>
+		</prerequisites>
+	</ResearchProjectDef>
+</Defs>

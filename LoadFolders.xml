@@ -1,0 +1,12 @@
+<loadFolders>
+  <v1.6>
+    <li>/</li>
+    <li IfModActive="ht.lunartika">Mods and Shit/Heavy Truck</li>
+    <li IfModActive="zal.snowcrawler">Mods and Shit/Snow Crawler</li>
+    <li IfModActive="mo.technicalmapvehicles">Mods and Shit/Technical Map Vehicles</li>
+    <li IfModActive="uv.lunartika">Mods and Shit/Utility Vehicle</li>
+    <li IfModActive="oskarpotocki.vanillavehiclesexpanded">Mods and Shit/VE Vehicles</li>
+    <li IfModActive="chaotic.rvinterior">Mods and Shit/Vehicle Interior Framework</li>
+    <li IfModActive="oskarpotocki.vanillavehiclesexpandedtier3">Mods and Shit/VVE Tier 3</li>
+  </v1.6>
+</loadFolders>

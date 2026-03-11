@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>              
+
+
+
+<!-- Dreadnought / Heavy platform truck -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="Dreadnought_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Heavy platform truck</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="Dreadnought_Blueprint"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="TMC_Dreadnought"]/label</xpath>
+                    <value>
+                        <label>Heavy platform truck</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="TMC_Dreadnought"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </Operation>
+
+
+<!-- Mud head / Light platform truck -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="MudHead_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Platform truck</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="MudHead_Blueprint"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="TMC_MudHead"]/label</xpath>
+                    <value>
+                        <label>Platform truck</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="TMC_MudHead"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </Operation>
+
+
+</Patch>
