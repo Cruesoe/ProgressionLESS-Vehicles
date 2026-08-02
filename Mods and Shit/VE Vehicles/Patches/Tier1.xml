@@ -2,6 +2,216 @@
 <Patch>              
 
 
+
+<!-- Reposition VVE projects -->
+
+                <!-- VVE_BasicVehicles  -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_BasicVehicles"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>0.00</researchViewX>
+                    </value>
+                </Operation>
+        
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_BasicVehicles"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>2.20</researchViewY>
+                    </value>
+                </Operation>
+
+                <!-- VVE_AerialVehicles -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_AerialVehicles"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>1.00</researchViewX>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_AerialVehicles"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>0.80</researchViewY>
+                    </value>
+                </Operation>
+
+                <!-- VVE_CombatVehicles -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_CombatVehicles"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>7.00</researchViewX>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_CombatVehicles"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>0.90</researchViewY>
+                    </value>
+                </Operation>
+
+                <!-- VVE_ClassicCars -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_ClassicCars"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>5.00</researchViewX>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_ClassicCars"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>5.30</researchViewY>
+                    </value>
+                </Operation>
+
+                <!-- VVE_SuperCars -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_SuperCars"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>5.00</researchViewX>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_SuperCars"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>4.30</researchViewY>
+                    </value>
+                </Operation>
+
+                <!-- VVE_BattleTanks -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_BattleTanks"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>5.00</researchViewX>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_BattleTanks"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>3.50</researchViewY>
+                    </value>
+                </Operation>
+
+                <!-- VVE_LightArmoredVehicles -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_LightArmoredVehicles"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>6.00</researchViewX>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_LightArmoredVehicles"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>4.40</researchViewY>
+                    </value>
+                </Operation>
+
+                <!-- VVE_OffroadJeeps -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_OffroadJeeps"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>5.50</researchViewX>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_OffroadJeeps"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>2.40</researchViewY>
+                    </value>
+                </Operation>
+
+                <!-- VVE_SiegePods -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_SiegePods"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>5.00</researchViewX>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_SiegePods"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>0.10</researchViewY>
+                    </value>
+                </Operation>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Refactor old research projects -->
+
+
+<!-- BASIC VEHICLES -> AUTOMOTIVE ENGINEERING -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_BasicVehicles"]/label</xpath>
+                    <value>
+                        <label>Automobiles</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_BasicVehicles"]/description</xpath>
+                    <value>
+                        <description>Begin researching vehicle production, beginning with a simple off-road vehicle.</description>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_BasicVehicles"]/baseCost</xpath>
+                    <value>
+                        <baseCost>1000</baseCost>
+                    </value>
+                </Operation>
+
+
+<!-- COMPLEX VEHICLES -> PICKUP TRUCK -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_ComplexVehicles"]/label</xpath>
+                    <value>
+                        <label>pickup truck</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_ComplexVehicles"]/description</xpath>
+                    <value>
+                        <description>Build a fast truck with high cargo capacity and great fuel efficiency on the world map. Good for traveling on flat roads, but will struggle on hills, snow or winter.</description>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_ComplexVehicles"]/baseCost</xpath>
+                    <value>
+                        <baseCost>1500</baseCost>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_ComplexVehicles"]/prerequisites</xpath>
+                    <value>
+                        <prerequisites><li>Ferny_SmallTruck</li></prerequisites>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_ComplexVehicles"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>2.00</researchViewX>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_ComplexVehicles"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>1.50</researchViewY>
+                    </value>
+                </Operation>
+
+
+
+
+
+
+
+
 <!-- Research patches -->
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Highwayman_Blueprint"]/researchPrerequisites</xpath>
@@ -17,12 +227,12 @@
                     </value>
                 </Operation>
 
-                <Operation Class="PatchOperationReplace">
+                <!-- <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Prowler_Blueprint"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites><li>Ferny_OffRoader</li></researchPrerequisites>
                     </value>
-                </Operation>
+                </Operation> -->
 
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Bunsen_Blueprint"]/researchPrerequisites</xpath>
@@ -35,6 +245,13 @@
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Scytheman_Blueprint"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites><li>Ferny_RocketArtillery</li></researchPrerequisites>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Dirtbike_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_DirtBike</li></researchPrerequisites>
                     </value>
                 </Operation>
 
@@ -73,6 +290,16 @@
                     </value>
                 </Operation>
 
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Roadkill_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_LightTank</li></researchPrerequisites>
+                    </value>
+                </Operation>
+
+
+
+
 
 
 
@@ -89,7 +316,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_BangBus_Blueprint"]/label</xpath>
                     <value>
-                        <label>Small van</label>
+                        <label>minivan</label>
                     </value>
                 </Operation>
 
@@ -103,7 +330,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_BangBus"]/label</xpath>
                     <value>
-                        <label>Small van</label>
+                        <label>minivan</label>
                     </value>
                 </Operation>
 
@@ -118,21 +345,21 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Dinghy_Blueprint"]/label</xpath>
                     <value>
-                        <label>Small boat</label>
+                        <label>small boat</label>
                     </value>
                 </Operation>
 
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Dinghy_Blueprint"]/description</xpath>
                     <value>
-                        <description>A small motorized boat. Has good cargo capacity, but uses too much fuel. It's not made to sail through winter or river currents, and the motor in the back is vulnerable to gunshots.</description>
+                        <description>A small motorized boat. Has good cargo capacity, but uses a lot of fuel. It's not made to sail through winter or river currents, and the motor in the back is vulnerable to gunshots.</description>
                     </value>
                 </Operation>
 <!-- ==================== Dinghy - Vehicle Pawn ==================== -->
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Dinghy"]/label</xpath>
                     <value>
-                        <label>Small boat</label>
+                        <label>small boat</label>
                     </value>
                 </Operation>
 
@@ -147,14 +374,14 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Dirtbike_Blueprint"]/description</xpath>
                     <value>
-                        <description>A small motorcycle for a single passanger. It can move through long distances in any terrain, but can't carry cargo. Be careful to not run out of fuel if you want to go too far.</description>
+                        <description>A small motorcycle for a single passenger. It can move through long distances in any terrain, but can't carry cargo. Be careful to not run out of fuel if you want to go too far.</description>
                     </value>
                 </Operation>
 <!-- ==================== Dirtbike - Vehicle Pawn ==================== -->
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Dirtbike"]/description</xpath>
                     <value>
-                        <description>A small motorcycle for a single passanger. It can move through long distances in any terrain, but can't carry cargo. Be careful to not run out of fuel if you want to go too far.</description>
+                        <description>A small motorcycle for a single passenger. It can move through long distances in any terrain, but can't carry cargo. Be careful to not run out of fuel if you want to go too far.</description>
                     </value>
                 </Operation>
 
@@ -163,28 +390,28 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Frog"]/label</xpath>
                     <value>
-                        <label>Rocket pod</label>
+                        <label>rocket pod</label>
                     </value>
                 </Operation>
 
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Frog"]/description</xpath>
                     <value>
-                        <description>A transport pod fitted with many thrusters. Moves much faster than a regular transport pod, but consumes a lot of fuel.</description>
+                        <description>A transport pod fitted with many thrusters, allowing for repeated use after landing in its destination. Moves much faster than a regular transport pod, but consumes a lot of fuel.</description>
                     </value>
                 </Operation>
 <!-- ==================== Frog - Blueprint ==================== -->
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Frog_Blueprint"]/label</xpath>
                     <value>
-                        <label>Rocket pod</label>
+                        <label>rocket pod</label>
                     </value>
                 </Operation>
 
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Frog_Blueprint"]/description</xpath>
                     <value>
-                        <description>A transport pod fitted with many thrusters. Moves much faster than a regular transport pod, but consumes a lot of fuel.</description>
+                        <description>A transport pod fitted with many thrusters, allowing for repeated use after landing in its destination. Moves much faster than a regular transport pod, but consumes a lot of fuel.</description>
                     </value>
                 </Operation>
 
@@ -193,7 +420,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Highwayman"]/label</xpath>
                     <value>
-                        <label>Armored car</label>
+                        <label>armored car</label>
                     </value>
                 </Operation>
 
@@ -207,7 +434,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Highwayman_Blueprint"]/label</xpath>
                     <value>
-                        <label>Armored car</label>
+                        <label>armored car</label>
                     </value>
                 </Operation>
 
@@ -223,7 +450,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Mule"]/label</xpath>
                     <value>
-                        <label>Small truck</label>
+                        <label>small truck</label>
                     </value>
                 </Operation>
 
@@ -237,7 +464,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Mule_Blueprint"]/label</xpath>
                     <value>
-                        <label>Small truck</label>
+                        <label>small truck</label>
                     </value>
                 </Operation>
 
@@ -253,7 +480,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Prowler"]/label</xpath>
                     <value>
-                        <label>Off-roader</label>
+                        <label>off-roader</label>
                     </value>
                 </Operation>
 
@@ -267,7 +494,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Prowler_Blueprint"]/label</xpath>
                     <value>
-                        <label>Off-roader</label>
+                        <label>off-roader</label>
                     </value>
                 </Operation>
 
@@ -283,7 +510,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Roadkill"]/label</xpath>
                     <value>
-                        <label>Light tank</label>
+                        <label>light tank</label>
                     </value>
                 </Operation>
 
@@ -297,7 +524,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Roadkill_Blueprint"]/label</xpath>
                     <value>
-                        <label>Light tank</label>
+                        <label>light tank</label>
                     </value>
                 </Operation>
 
@@ -313,28 +540,28 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Traveller"]/label</xpath>
                     <value>
-                        <label>Basic car</label>
+                        <label>makeshift car</label>
                     </value>
                 </Operation>
 
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Traveller"]/description</xpath>
                     <value>
-                        <description>An automobile with good speed and decent cargo capacity, but can only transport a couple people. It consumes quite a bit of fuel and performs better in smooth asphalt than difficult terrain.</description>
+                        <description>A basic automobile with good speed and decent cargo capacity, but can only transport a couple people. It consumes quite a bit of fuel and performs better in smooth asphalt than difficult terrain.</description>
                     </value>
                 </Operation>
 <!-- ==================== Traveller - Blueprint ==================== -->
                  <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Traveller_Blueprint"]/label</xpath>
                     <value>
-                        <label>Basic car</label>
+                        <label>makeshift car</label>
                     </value>
                 </Operation>
 
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Traveller_Blueprint"]/description</xpath>
                     <value>
-                        <description>An automobile with good speed and decent cargo capacity, but can only transport a couple people. It consumes quite a bit of fuel and performs better in smooth asphalt than difficult terrain.</description>
+                        <description>A basic automobile with good speed and decent cargo capacity, but can only transport a couple people. It consumes quite a bit of fuel and performs better in smooth asphalt than difficult terrain.</description>
                     </value>
                 </Operation>
 
@@ -342,7 +569,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Bunsen"]/label</xpath>
                     <value>
-                        <label>Flame tank</label>
+                        <label>flame tank</label>
                     </value>
                 </Operation>
 
@@ -356,7 +583,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Bunsen_Blueprint"]/label</xpath>
                     <value>
-                        <label>Flame tank</label>
+                        <label>flame tank</label>
                     </value>
                 </Operation>
 
@@ -371,7 +598,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Toad_Blueprint"]/label</xpath>
                     <value>
-                        <label>Siege pod</label>
+                        <label>siege pod</label>
                     </value>
                 </Operation>
 
@@ -385,7 +612,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Toad"]/label</xpath>
                     <value>
-                        <label>Siege pod</label>
+                        <label>siege pod</label>
                     </value>
                 </Operation>
 
@@ -400,28 +627,28 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Scytheman_Blueprint"]/label</xpath>
                     <value>
-                        <label>Rocket artillery</label>
+                        <label>rocket artillery</label>
                     </value>
                 </Operation>
 
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Scytheman_Blueprint"]/description</xpath>
                     <value>
-                        <description>Essentially a farm tractor repurposed to carry a rack of explosive rockets. It's fuel usage is high and it has very little armor, but it can easily barrage your enemies from a distance.</description>
+                        <description>Essentially a farm tractor repurposed to carry a rack of explosive rockets. Its fuel usage is high and it has very little armor, but it can easily barrage your enemies from a distance.</description>
                     </value>
                 </Operation>
 <!-- ==================== Scytheman - Vehicle Pawn ==================== -->
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Scytheman"]/label</xpath>
                     <value>
-                        <label>Rocket artillery</label>
+                        <label>rocket artillery</label>
                     </value>
                 </Operation>
 
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Scytheman"]/description</xpath>
                     <value>
-                        <description>Essentially a farm tractor repurposed to carry a rack of explosive rockets. It's fuel usage is high and it has very little armor, but it can easily barrage your enemies from a distance.</description>
+                        <description>Essentially a farm tractor repurposed to carry a rack of explosive rockets. Its fuel usage is high and it has very little armor, but it can easily barrage your enemies from a distance.</description>
                     </value>
                 </Operation>
 

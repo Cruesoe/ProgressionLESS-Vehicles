@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>Ferny_PassengerBus</defName>
+		<label>Passenger bus</label>
+		<description>text.todo</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>4.30</researchViewY>
+		<tab>Vehicles</tab>
+		<prerequisites>
+			<li>Ferny_FamilyCar</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+</Defs>

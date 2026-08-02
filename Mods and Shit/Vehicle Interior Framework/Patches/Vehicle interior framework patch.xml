@@ -2,31 +2,6 @@
 <Patch>              
 
                 <Operation Class="PatchOperationReplace">
-                    <xpath>/Defs/ResearchProjectDef[defName="Research_RVwithPD"]/label</xpath>
-                    <value>
-                        <label>Motorhome</label>
-                    </value>
-                </Operation>
-
-                <Operation Class="PatchOperationReplace">
-                    <xpath>/Defs/ResearchProjectDef[defName="Research_RVwithPD"]/description</xpath>
-                    <value>
-                        <description>text.todo</description>
-                    </value>
-                </Operation>
-
-                <Operation Class="PatchOperationReplace">
-                    <xpath>/Defs/ResearchProjectDef[defName="Research_RVwithPD"]/prerequisites</xpath>
-                    <value>
-                        <prerequisites>
-                            <li>VVE_BasicVehicles</li>
-                        </prerequisites>
-                    </value>
-                </Operation>
-
-
-
-                <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="RVwithPD_Blueprint"]/label</xpath>
                     <value>
                         <label>Motorhome</label>
@@ -36,7 +11,16 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="RVwithPD_Blueprint"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A self-contained mobile dwelling, designed for a portable life on the rim. Can be entered like a structure, offering a compact interior with space to rest, store supplies, and shelter from the elements. Though cramped it provides a novel luxury, a home that moves with you. Ideal for a nomadic lifestyle.</description>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="RVwithPD_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites>
+                            <li>Ferny_Motorhome</li>
+                        </researchPrerequisites>
                     </value>
                 </Operation>
 
@@ -50,7 +34,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="RVwithPD"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A self-contained mobile dwelling, designed for a portable life on the rim. Can be entered like a structure, offering a compact interior with space to rest, store supplies, and shelter from the elements. Though cramped it provides a novel luxury, a home that moves with you. Ideal for a nomadic lifestyle.</description>
                     </value>
                 </Operation>
 

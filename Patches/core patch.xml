@@ -1,22 +1,57 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<Patch>     
-<!-- CORE PATCHES -->
-                <Operation Class="PatchOperationReplace">
-                    <success>Always</success>
-                    <xpath>Defs/ThingDef[defName="CommsConsole"]/researchPrerequisites</xpath>
-                    <value>
-                        <researchPrerequisites>
-                            <li>Ferny_CommsConsole</li>
-                        </researchPrerequisites>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationReplace">
-                    <success>Always</success>
-                    <xpath>Defs/ThingDef[defName="OrbitalTradeBeacon"]/researchPrerequisites</xpath>
-                    <value>
-                        <researchPrerequisites>
-                            <li>Ferny_CommsConsole</li>
-                        </researchPrerequisites>
-                    </value>
-                </Operation>
-</Patch>
+    <Patch>     
+
+
+                    <Operation Class="PatchOperationRemove">
+                        <success>Always</success>
+                        <xpath>Defs/ResearchProjectDef[defName="TransportPod"]/hiddenPrerequisites</xpath>
+                    </Operation>
+
+                    <Operation Class="PatchOperationReplace">
+                        <success>Always</success>
+                        <xpath>Defs/ResearchProjectDef[defName="TransportPod"]/prerequisites</xpath>
+                        <value>
+                            <prerequisites>
+                            <li>MicroelectronicsBasics</li>
+                            <li>VVE_AerialVehicles</li>
+                            </prerequisites>
+                        </value>
+                    </Operation>
+
+                    <Operation Class="PatchOperationAdd">
+                        <success>Always</success>
+                        <xpath>Defs/ResearchProjectDef[defName="TransportPod"]</xpath>
+                        <value>
+                            <tab>Vehicles</tab>
+                        </value>
+                    </Operation>
+
+
+                    <Operation Class="PatchOperationReplace">
+                        <success>Always</success>
+                        <xpath>Defs/ResearchProjectDef[defName="TransportPod"]/researchViewX</xpath>
+                        <value>
+                            <researchViewX>2.00</researchViewX>
+                        </value>
+                    </Operation>
+
+                    <Operation Class="PatchOperationReplace">
+                        <success>Always</success>
+                        <xpath>Defs/ResearchProjectDef[defName="TransportPod"]/researchViewY</xpath>
+                        <value>
+                            <researchViewY>0.10</researchViewY>
+                        </value>
+                    </Operation>
+
+
+                    <Operation Class="PatchOperationReplace">
+                        <success>Always</success>
+                        <xpath>Defs/ResearchTabDef[defName="Vehicles"]/label</xpath>
+                        <value>
+                            <label>Transport</label>
+                        </value>
+                    </Operation>
+
+
+
+    </Patch>

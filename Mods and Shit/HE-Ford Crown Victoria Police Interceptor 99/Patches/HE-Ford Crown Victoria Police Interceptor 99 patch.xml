@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>HE-Ford Crown Victoria Police Interceptor '99</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+
+                <!-- Labels -->
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_CVPIPD_Blueprint"]/label</xpath>
+                    <value>
+                        <label>sedan (police style)</label>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="HE_CVPIPD"]/label</xpath>
+                    <value>
+                        <label>sedan (police style)</label>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_CVPISO_Blueprint"]/label</xpath>
+                    <value>
+                        <label>sedan (sheriff style)</label>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="HE_CVPISO"]/label</xpath>
+                    <value>
+                        <label>sedan (sheriff style)</label>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_FCV_Blueprint"]/label</xpath>
+                    <value>
+                        <label>sedan</label>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="HE_FCV"]/label</xpath>
+                    <value>
+                        <label>sedan</label>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_CVPI_Blueprint"]/label</xpath>
+                    <value>
+                        <label>sedan (police style, no text)</label>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="HE_CVPI"]/label</xpath>
+                    <value>
+                        <label>sedan (police style, no text)</label>
+                    </value>
+                </li>
+
+                <!-- Dropdown order -->
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_FCV_Blueprint"]</xpath>
+                    <value>
+                        <uiOrder>1</uiOrder>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_CVPIPD_Blueprint"]</xpath>
+                    <value>
+                        <uiOrder>2</uiOrder>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_CVPISO_Blueprint"]</xpath>
+                    <value>
+                        <uiOrder>3</uiOrder>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_CVPI_Blueprint"]</xpath>
+                    <value>
+                        <uiOrder>4</uiOrder>
+                    </value>
+                </li>
+
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

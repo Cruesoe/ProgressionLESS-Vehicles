@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>              
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="UV_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_LightUtilityJeep</li></researchPrerequisites>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="UV_Blueprint"]/label</xpath>
+                    <value>
+                        <label>light utility jeep</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="UV_Blueprint"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="UV_A"]/label</xpath>
+                    <value>
+                        <label>light utility jeep</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="UV_A"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </Operation>
+
+</Patch>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>HE-Chevrolet Tahoe '07</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+
+                <!-- Research -->
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_CT_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_FamilyCar</li></researchPrerequisites>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_CTPD_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_FamilyCar</li></researchPrerequisites>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_CTSO_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_FamilyCar</li></researchPrerequisites>
+                    </value>
+                </li>
+
+                <!-- Normal -->
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_CT_Blueprint"]/label</xpath>
+                    <value>
+                        <label>passenger SUV</label>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_CT_Blueprint"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="HE_CT"]/label</xpath>
+                    <value>
+                        <label>passenger SUV</label>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="HE_CT"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </li>
+
+                <!-- Police -->
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_CTPD_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Passenger SUV (sheriff style)</label>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_CTPD_Blueprint"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="HE_CTPD"]/label</xpath>
+                    <value>
+                        <label>Passenger SUV (sheriff style)</label>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="HE_CTPD"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </li>
+
+                <!-- Sheriff -->
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_CTSO_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Passenger SUV (police style)</label>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_CTSO_Blueprint"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="HE_CTSO"]/label</xpath>
+                    <value>
+                        <label>Passenger SUV (police style)</label>
+                    </value>
+                </li>
+
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="HE_CTSO"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </li>
+
+                <!-- Dropdowns -->
+
+                <!-- <li Class="PatchOperationAdd">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_CT_Blueprint"]</xpath>
+                    <value>
+                        <designatorDropdown>Ferny_PassengerCars</designatorDropdown>
+                    </value>
+                </li> -->
+
+            </operations>
+        </match>
+    </Operation>
+
+</Patch>

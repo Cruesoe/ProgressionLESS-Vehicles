@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-
 <!-- Tier 1 -->
-
-
-
-<!-- Car tree -->
-
-	<ResearchProjectDef>
-		<defName>Ferny_FamilyCar</defName>
-		<label>Family car</label>
-		<description>Build an all-purpose car with good passenger and cargo capacity, high fuel efficiency, and lower visibility, but it will struggle to move on hills, snow or winter tiles..</description>
-		<baseCost>1500</baseCost>
-		<techLevel>Industrial</techLevel>
-		<researchViewX>30.00</researchViewX>
-		<researchViewY>3.00</researchViewY>
-		<prerequisites>
-			<li>Ferny_ArmoredCar</li>
-		</prerequisites>
-	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>Ferny_BasicCar</defName>
-		<label>Basic car</label>
-		<description>Build an automobile with good speed and decent cargo capacity, but can only transport a couple people. It consumes quite a bit of fuel and performs better in smooth asphalt than difficult terrain.</description>
+		<label>Makeshift car</label>
+		<description>Build a basic automobile with good speed and decent cargo capacity, but can only transport a couple people. It consumes quite a bit of fuel and performs better in smooth asphalt than difficult terrain.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>30.00</researchViewX>
-		<researchViewY>3.00</researchViewY>
+		<tab>Vehicles</tab>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>2.20</researchViewY>
 		<prerequisites>
 			<li>VVE_BasicVehicles</li>
 		</prerequisites>
 	</ResearchProjectDef>
+
+<!-- Civillian car branch -->
+	<ResearchProjectDef>
+		<defName>Ferny_FamilyCar</defName>
+		<label>Passenger cars</label>
+		<description>Build an all-purpose car with good passenger and cargo capacity, high fuel efficiency, and lower visibility, but it will struggle to move on hills, snow or winter tiles..</description>
+		<baseCost>1500</baseCost>
+		<techLevel>Industrial</techLevel>
+		<tab>Vehicles</tab>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>2.20</researchViewY>
+		<prerequisites>
+			<li>Ferny_BasicCar</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+
 
 	<ResearchProjectDef>
 		<defName>Ferny_ArmoredCar</defName>
@@ -40,6 +40,7 @@
 		<description>Build a lightly armored car, intended to provide mobile fire support. Its armor is effective against small arms, but is vulnerable in the rear. It can carry three people along paved roads, but is less fuel-efficient on the world map.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Industrial</techLevel>
+		<tab>Vehicles</tab>
 		<researchViewX>30.00</researchViewX>
 		<researchViewY>3.00</researchViewY>
 		<prerequisites>
@@ -47,26 +48,11 @@
 		</prerequisites>
 	</ResearchProjectDef>
 
-	<ResearchProjectDef>
+	<!-- <ResearchProjectDef>
 		<defName>Ferny_OffRoader</defName>
 		<label>Off-roader</label>
-		<description>Off-roader</description>
-		<baseCost>1000</baseCost>
-		<techLevel>Industrial</techLevel>
-		<researchViewX>30.00</researchViewX>
-		<researchViewY>3.00</researchViewY>
-		<prerequisites>
-			<li>VVE_BasicVehicles</li>
-		</prerequisites>
-	</ResearchProjectDef>
-
-
-	<!-- I think this is the first vehicle you get -->
-
-	<!-- <ResearchProjectDef>
-		<defName>Ferny_DirtBike</defName>
-		<label>Dirt bike</label>
-		<description>Dirt bike</description>
+		<tab>Vehicles</tab>
+		<description>Build an off-road explorer made to travel in difficult terrain of any kind. Has decent cargo and fuel efficiency. It's not the fastest vehicle and can be a bit too visible, but still faster than walking.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Industrial</techLevel>
 		<researchViewX>30.00</researchViewX>
@@ -76,40 +62,62 @@
 		</prerequisites>
 	</ResearchProjectDef> -->
 
+
+	<!-- I think this is the first vehicle you get -->
+
+	<ResearchProjectDef>
+		<defName>Ferny_DirtBike</defName>
+		<label>Dirt bike</label>
+		<description>Build a small motorcycle for a single passenger. It can move through long distances in any terrain, but can't carry cargo. Be careful to not run out of fuel if you want to go too far.</description>
+		<baseCost>800</baseCost>
+		<tab>Vehicles</tab>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>2.90</researchViewY>
+		<prerequisites>
+			<li>VVE_BasicVehicles</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
 	<ResearchProjectDef>
 		<defName>Ferny_FlameTank</defName>
 		<label>Flame tank</label>
-		<description>Flame tank</description>
+		<description>Build a light tank fitted with thin, fireproof plating and chemfuel tanks to burn enemies and fortifications with its flamethrower. It's not very fuel-efficient in the world map.</description>
 		<baseCost>1000</baseCost>
+		<tab>Vehicles</tab>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>30.00</researchViewX>
-		<researchViewY>3.00</researchViewY>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>0.90</researchViewY>
 		<prerequisites>
 			<li>VVE_BasicVehicles</li>
+			<li>MicroelectronicsBasics</li>
 		</prerequisites>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>Ferny_RocketArtillery</defName>
 		<label>Rocket artillery</label>
-		<description>Rocket artillery</description>
+		<description>Build a farm tractor repurposed to carry a rack of explosive rockets. Its fuel usage is high and it has very little armor, but it can easily barrage your enemies from a distance.</description>
 		<baseCost>1000</baseCost>
+		<tab>Vehicles</tab>
 		<techLevel>Industrial</techLevel>
 		<researchViewX>30.00</researchViewX>
 		<researchViewY>3.00</researchViewY>
 		<prerequisites>
 			<li>VVE_BasicVehicles</li>
+			<li>MicroelectronicsBasics</li>
 		</prerequisites>
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
 		<defName>Ferny_RocketPod</defName>
 		<label>Rocket pod</label>
-		<description>Rocket pod</description>
+		<description>Build a transport pod fitted with many thrusters, allowing for repeated use after landing in its destination. Moves much faster than a regular transport pod, but consumes a lot of fuel.</description>
 		<baseCost>1000</baseCost>
+		<tab>Vehicles</tab>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>30.00</researchViewX>
-		<researchViewY>3.00</researchViewY>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>0.10</researchViewY>
 		<prerequisites>
 			<li>TransportPod</li>
 		</prerequisites>
@@ -118,11 +126,12 @@
 	<ResearchProjectDef>
 		<defName>Ferny_SiegePod</defName>
 		<label>Siege pod</label>
-		<description>Siege pod</description>
+		<description>Build a heavily-armored rocket pod with a siege gun mounted on top, uses a lot of fuel to move but functions essentially as a deployable bunker from where to besiege your enemies.</description>
 		<baseCost>1000</baseCost>
+		<tab>Vehicles</tab>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>30.00</researchViewX>
-		<researchViewY>3.00</researchViewY>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>0.10</researchViewY>
 		<prerequisites>
 			<li>Ferny_RocketPod</li>
 		</prerequisites>
@@ -131,11 +140,12 @@
 	<ResearchProjectDef>
 		<defName>Ferny_SmallBoat</defName>
 		<label>Small boat</label>
-		<description>Small boat</description>
+		<description>Build a small motorized boat. Has good cargo capacity, but uses a lot of fuel. It's not made to sail through winter or river currents, and the motor in the back is vulnerable to gunshots.</description>
 		<baseCost>800</baseCost>
+		<tab>Vehicles</tab>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>30.00</researchViewX>
-		<researchViewY>3.00</researchViewY>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>3.70</researchViewY>
 		<prerequisites>
 			<li>VVE_BasicVehicles</li>
 		</prerequisites>
@@ -144,11 +154,12 @@
 	<ResearchProjectDef>
 		<defName>Ferny_SmallTruck</defName>
 		<label>Small truck</label>
-		<description>Small truck</description>
+		<description>Build a basic truck intended to transport high amounts of cargo at long distances on paved roads. It's less efficient for short trips, and will have trouble moving through frozen or steep terrain.</description>
 		<baseCost>1000</baseCost>
+		<tab>Vehicles</tab>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>30.00</researchViewX>
-		<researchViewY>3.00</researchViewY>
+		<researchViewX>1.00</researchViewX>
+		<researchViewY>1.50</researchViewY>
 		<prerequisites>
 			<li>VVE_BasicVehicles</li>
 		</prerequisites>
@@ -156,60 +167,83 @@
 
 	<ResearchProjectDef>
 		<defName>Ferny_SmallVan</defName>
-		<label>Small van</label>
-		<description>Small van</description>
+		<label>Minivan</label>
+		<description>Build a small van, intended to transport people on paved roads. Has low cargo capacity but high passenger space, and can consume a lot of fuel in long travels.</description>
 		<baseCost>1000</baseCost>
+		<tab>Vehicles</tab>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>30.00</researchViewX>
-		<researchViewY>3.00</researchViewY>
+		<researchViewX>4.50</researchViewX>
+		<researchViewY>2.20</researchViewY>
 		<prerequisites>
-			<li>VVE_BasicVehicles</li>
+			<li>Ferny_FamilyCar</li>
 		</prerequisites>
 	</ResearchProjectDef>
+
+	<ResearchProjectDef>
+		<defName>Ferny_LargeVan</defName>
+		<label>Van</label>
+		<description>Build a large van with very high passenger capacity, great fuel efficiency and lower visibility. However, it will struggle a lot in hills, snow and winter.</description>
+		<baseCost>1000</baseCost>
+		<tab>Vehicles</tab>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>5.50</researchViewX>
+		<researchViewY>2.20</researchViewY>
+		<prerequisites>
+			<li>Ferny_SmallVan</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
 
 
 
 
 <!-- Tier 2 -->
 
-	<ResearchProjectDef>
+	<!-- <ResearchProjectDef>
 		<defName>Ferny_Aeroplane</defName>
 		<label>Aeroplane</label>
 		<description>Build a small airplane that moves extremely fast and can carry more cargo than an helicopter, but requires a landing strip. It is very visible, like any aircraft. It has a regular fuel efficiency on the world map, but makes up for it in speed.</description>
 		<baseCost>2000</baseCost>
+		<tab>Vehicles</tab>
 		<techLevel>Industrial</techLevel>
 		<researchViewX>30.00</researchViewX>
 		<researchViewY>3.00</researchViewY>
 		<prerequisites>
 			<li>VVE_BasicVehicles</li>
 		</prerequisites>
-	</ResearchProjectDef>
+	</ResearchProjectDef> -->
+
+
+
+
+
 
 	<ResearchProjectDef>
 		<defName>Ferny_FighterPlane</defName>
 		<label>Fighter plane</label>
 		<description>Build a fast-moving plane with minimal cargo capacity, intended to engage other aircraft in battle. It has regular fuel efficiency, and is very easy to notice.</description>
 		<baseCost>1000</baseCost>
+		<tab>Vehicles</tab>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>30.00</researchViewX>
-		<researchViewY>3.00</researchViewY>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>4.40</researchViewY>
 		<prerequisites>
-			<li>Ferny_Aeroplane</li>
+			<li>VVE_AerialVehicles</li>
 		</prerequisites>
 	</ResearchProjectDef>
-
-
 
 	<ResearchProjectDef>
 		<defName>Ferny_Helicopter</defName>
 		<label>Helicopter</label>
 		<description>Build a small helicopter that moves extremely fast and can carry more cargo than an off-roader, but requires a landing pad. It is very visible, like any aircraft. It has a regular fuel efficiency on the world map, but makes up for it in speed.</description>
 		<baseCost>2000</baseCost>
+		<tab>Vehicles</tab>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>30.00</researchViewX>
-		<researchViewY>3.00</researchViewY>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>0.80</researchViewY>
 		<prerequisites>
-			<li>Ferny_Aeroplane</li>
+			<li>VVE_AerialVehicles</li>
+			<li>MicroelectronicsBasics</li>
 		</prerequisites>
 	</ResearchProjectDef>
 
@@ -218,9 +252,10 @@
 		<label>Armored personnel carrier</label>
 		<description>Build an armed vehicle with hardened armor, good cargo capacity and all-terrain support. However, it's slow, very visible, and not very fuel-efficient, and has a slightly lower defense on the rear.</description>
 		<baseCost>1500</baseCost>
+		<tab>Vehicles</tab>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>30.00</researchViewX>
-		<researchViewY>3.00</researchViewY>
+		<researchViewX>28.00</researchViewX>
+		<researchViewY>3.80</researchViewY>
 		<prerequisites>
 			<li>Ferny_ArmoredCar</li>
 		</prerequisites>
@@ -231,11 +266,12 @@
 		<label>Field carrier</label>
 		<description>Build a large truck meant to deliver troops and supplies away from the base. It can move well in rough terrain, but the fuel efficiency is low, and passengers in the back will lack protection.</description>
 		<baseCost>1500</baseCost>
+		<tab>Vehicles</tab>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>30.00</researchViewX>
-		<researchViewY>3.00</researchViewY>
+		<researchViewX>3.00</researchViewX>
+		<researchViewY>1.50</researchViewY>
 		<prerequisites>
-			<li>Ferny_ArmoredCar</li>
+			<li>VVE_ComplexVehicles</li>
 		</prerequisites>
 	</ResearchProjectDef>
 
@@ -244,28 +280,55 @@
 		<label>Medium tank</label>
 		<description>Build a medium tank with decent armor in all sides, with the thinnest plating at the rear. Has a medium fuel efficiency, performs better in difficult terrain, and is quite visible.</description>
 		<baseCost>1500</baseCost>
+		<tab>Vehicles</tab>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>30.00</researchViewX>
-		<researchViewY>3.00</researchViewY>
+		<researchViewX>6.00</researchViewX>
+		<researchViewY>1.50</researchViewY>
 		<prerequisites>
-			<li>Ferny_ArmoredCar</li>
+			<li>Ferny_LightTank</li>
 		</prerequisites>
 	</ResearchProjectDef>
-
 
 	<ResearchProjectDef>
 		<defName>Ferny_LargeBoat</defName>
 		<label>Large boat</label>
 		<description>Build a vessel with high cargo capacity and good fuel efficiency. It has low visibility, but will have trouble moving on rivers or during winter.</description>
 		<baseCost>1000</baseCost>
+		<tab>Vehicles</tab>
 		<techLevel>Industrial</techLevel>
-		<researchViewX>30.00</researchViewX>
-		<researchViewY>3.00</researchViewY>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>3.70</researchViewY>
 		<prerequisites>
 			<li>Ferny_SmallBoat</li>
 		</prerequisites>
 	</ResearchProjectDef>
 
+	<ResearchProjectDef>
+		<defName>Ferny_Motorcycle</defName>
+		<label>Motorcycle</label>
+		<description>Build a motorcycle that can quickly and discretely transport a single person and a small amount of cargo. Has a good fuel efficiency in the world map, and can move well in any terrain except snow, or during winter.</description>
+		<baseCost>1200</baseCost>
+		<tab>Vehicles</tab>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>2.00</researchViewX>
+		<researchViewY>2.90</researchViewY>
+		<prerequisites>
+			<li>Ferny_DirtBike</li>
+		</prerequisites>
+	</ResearchProjectDef>
 
+	<ResearchProjectDef>
+		<defName>Ferny_LightTank</defName>
+		<label>Light tank</label>
+		<description>Build a small tank with light armor. It's very cheap and easy to assemble, but very loud and vulnerable in the rear. They aren't very fast or accurate and use a lot of fuel, and are best used in short-range engagements.</description>
+		<baseCost>1200</baseCost>
+		<tab>Vehicles</tab>
+		<techLevel>Industrial</techLevel>
+		<researchViewX>4.00</researchViewX>
+		<researchViewY>1.50</researchViewY>
+		<prerequisites>
+			<li>Ferny_FieldCarrier</li>
+		</prerequisites>
+	</ResearchProjectDef>
 
 </Defs>

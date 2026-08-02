@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<!-- <VMF_FocusVehicleMap>Focus Vehicle Map</VMF_FocusVehicleMap> -->
+	<VMF_FocusVehicleMap>Focus platform</VMF_FocusVehicleMap>
+	<!-- <VMF_UnfocusVehicleMap>Unfocus Vehicle Map</VMF_UnfocusVehicleMap> -->
+	<VMF_UnfocusVehicleMap>Unfocus platform</VMF_UnfocusVehicleMap>
+
+	<!-- <VMF_AllowsHaulIn>Allows Haul In</VMF_AllowsHaulIn> -->
+	<VMF_AllowsHaulIn>Allow hauling onto platform</VMF_AllowsHaulIn>
+	<!-- <VMF_AllowsHaulInDesc>Allows colonists to haul in storage on this vehicle's map.</VMF_AllowsHaulInDesc> -->
+	<VMF_AllowsHaulInDesc>Allow colonists to haul items onto this vehicle's platform.</VMF_AllowsHaulInDesc>
+	<!-- <VMF_AllowsHaulOut>Allows Haul Out</VMF_AllowsHaulOut> -->
+	<VMF_AllowsHaulOut>Allow hauling out of platform</VMF_AllowsHaulOut>
+	<!-- <VMF_AllowsHaulOutDesc>Allows colonists to haul out storage on this vehicle's map.</VMF_AllowsHaulOutDesc> -->
+	<VMF_AllowsHaulOutDesc>Allow colonists to haul out items from this vehicle's platform.</VMF_AllowsHaulOutDesc>
+	<!-- <VMF_IncreasePriority>Increase Priority</VMF_IncreasePriority> -->
+	<VMF_IncreasePriority>Increase storage priorities</VMF_IncreasePriority>
+	<!-- <VMF_IncreasePriorityDesc>Increase all storage priorities on this vehicle's map</VMF_IncreasePriorityDesc> -->
+	<VMF_IncreasePriorityDesc>Increase all storage priorities on this vehicle's platform</VMF_IncreasePriorityDesc>
+	<!-- <VMF_DecreasePriority>Decrease Priority</VMF_DecreasePriority> -->
+	<VMF_DecreasePriority>Decrease storage priorities</VMF_DecreasePriority>
+	<!-- <VMF_DecreasePriorityDesc>Decrease all storage priorities on this vehicle's map</VMF_DecreasePriorityDesc> -->
+	<VMF_DecreasePriorityDesc>Decrease all storage priorities on this vehicle's platform</VMF_DecreasePriorityDesc>
+	<!-- <VMF_AllowsGetOff>Allows Exit</VMF_AllowsGetOff> -->
+	<VMF_AllowsGetOff>Allow leaving platform</VMF_AllowsGetOff>
+	<!-- <VMF_AllowsGetOffDesc>Allows colonists AI to exit the vehicle map.</VMF_AllowsGetOffDesc> -->
+	<VMF_AllowsGetOffDesc>Allows colonists to exit the vehicle platform.</VMF_AllowsGetOffDesc>
+	<!-- <VMF_AllowEnter>Allow Enter</VMF_AllowEnter> -->
+	<VMF_AllowEnter>Allow boarding platform</VMF_AllowEnter>
+	<VMF_AllowEnterDesc>Allows colonists to board the vehicle platform.</VMF_AllowEnterDesc>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<VMF_LowerPowerDesc>Lower the target power transmission amount.</VMF_LowerPowerDesc>
+	<VMF_ResetPower>Reset</VMF_ResetPower>
+	<VMF_ResetPowerDesc>Reset the target power transmission amount.</VMF_ResetPowerDesc>
+	<VMF_RaisePowerDesc>Raise the target power transmission amount.</VMF_RaisePowerDesc>
+
+	<VMF_Reassign>Reassign</VMF_Reassign>
+	<VMF_ReassignDesc>Reassign the turret that this seat operates.</VMF_ReassignDesc>
+
+	<VMF_GatherFromBaseMap>Gather From Basemap</VMF_GatherFromBaseMap>
+	
+	<VMF_AssignPipeNet>Assign</VMF_AssignPipeNet>
+	<VMF_PumpUp>Pump Up</VMF_PumpUp>
+	<VMF_Drain>Drain</VMF_Drain>
+	<VMF_Flip>Flip</VMF_Flip>
+
+
+
+
+
+
+
+
+	<!-- <VMF_VehicleMode>Vehicle Mode</VMF_VehicleMode> -->
+	<VMF_VehicleMode>Vehicle mode</VMF_VehicleMode>
+	
+
+
+
+
+
+
+	<VMF_RemoveSegment>Remove segment</VMF_RemoveSegment>
+	<VMF_RemoveSegmentDesc>Removes the segment from the expanded vehicle structure.</VMF_RemoveSegmentDesc>
+
+</LanguageData>

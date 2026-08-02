@@ -4,13 +4,46 @@
 
 
 
-<!-- Research patches -->
+
+<!-- AERIAL VEHICLES -> AEROPLANE -->
                 <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_AerialVehicles"]/label</xpath>
+                    <value>
+                        <label>Aeroplane</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_AerialVehicles"]/description</xpath>
+                    <value>
+                        <description>Build a small airplane that moves extremely fast and can carry more cargo than an helicopter, but requires a landing strip. It is very visible, like any aircraft. It has a regular fuel efficiency on the world map, but makes up for it in speed.</description>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_AerialVehicles"]/baseCost</xpath>
+                    <value>
+                        <baseCost>2000</baseCost>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_AerialVehicles"]/prerequisites</xpath>
+                    <value>
+                        <prerequisites>
+                            <li>VVE_BasicVehicles</li>
+                        </prerequisites>
+                    </value>
+                </Operation>
+
+
+
+    
+
+<!-- Research patches -->
+                <!-- <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Smuggler_Blueprint"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites><li>Ferny_Aeroplane</li></researchPrerequisites>
                     </value>
-                </Operation>
+                </Operation> -->
 
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Mosquito_Blueprint"]/researchPrerequisites</xpath>
@@ -65,13 +98,51 @@
 
 
                 <Operation Class="PatchOperationReplace">
-                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Trawler"]/researchPrerequisites</xpath>
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Trawler_Blueprint"]/researchPrerequisites</xpath>
                     <value>
                         <researchPrerequisites><li>Ferny_LargeBoat</li></researchPrerequisites>
                     </value>
                 </Operation>
 
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Wagon_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_FamilyCar</li></researchPrerequisites>
+                    </value>
+                </Operation>
 
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Snatcher_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_LargeVan</li></researchPrerequisites>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Charley_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_Motorcycle</li></researchPrerequisites>
+                    </value>
+                </Operation>
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Dropdowns -->
+                <!-- <Operation Class="PatchOperationAdd">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Wagon_Blueprint"]</xpath>
+                    <value>
+                        <designatorDropdown>Ferny_PassengerCars</designatorDropdown>
+                    </value>
+                </Operation> -->
 
 
 
@@ -92,7 +163,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Bulldog"]/label</xpath>
                     <value>
-                        <label>Medium tank</label>
+                        <label>medium tank</label>
                     </value>
                 </Operation>
 
@@ -108,7 +179,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Bulldog_Blueprint"]/label</xpath>
                     <value>
-                        <label>Medium tank</label>
+                        <label>medium tank</label>
                     </value>
                 </Operation>
 
@@ -124,7 +195,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Charley"]/label</xpath>
                     <value>
-                        <label>Motorcycle</label>
+                        <label>motorcycle</label>
                     </value>
                 </Operation>
 
@@ -138,7 +209,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Charley_Blueprint"]/label</xpath>
                     <value>
-                        <label>Motorcycle</label>
+                        <label>motorcycle</label>
                     </value>
                 </Operation>
 
@@ -153,7 +224,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Mosquito"]/label</xpath>
                     <value>
-                        <label>Helicopter</label>
+                        <label>helicopter</label>
                     </value>
                 </Operation>
 
@@ -167,7 +238,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Mosquito_Blueprint"]/label</xpath>
                     <value>
-                        <label>Helicopter</label>
+                        <label>helicopter</label>
                     </value>
                 </Operation>
 
@@ -183,7 +254,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Roadrunner"]/label</xpath>
                     <value>
-                        <label>Pick-up car</label>
+                        <label>cargo pickup truck</label>
                     </value>
                 </Operation>
 
@@ -197,7 +268,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Roadrunner_Blueprint"]/label</xpath>
                     <value>
-                        <label>Pick-up car</label>
+                        <label>cargo pickup truck</label>
                     </value>
                 </Operation>
 
@@ -213,7 +284,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Smuggler"]/label</xpath>
                     <value>
-                        <label>Aeroplane</label>
+                        <label>aeroplane</label>
                     </value>
                 </Operation>
 
@@ -227,7 +298,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Smuggler_Blueprint"]/label</xpath>
                     <value>
-                        <label>Aeroplane</label>
+                        <label>aeroplane</label>
                     </value>
                 </Operation>
 
@@ -242,7 +313,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Snatcher"]/label</xpath>
                     <value>
-                        <label>Large van</label>
+                        <label>van</label>
                     </value>
                 </Operation>
 
@@ -256,7 +327,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Snatcher_Blueprint"]/label</xpath>
                     <value>
-                        <label>Large van</label>
+                        <label>van</label>
                     </value>
                 </Operation>
 
@@ -271,7 +342,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Tango"]/label</xpath>
                     <value>
-                        <label>Armored personnel carrier</label>
+                        <label>armored personnel carrier</label>
                     </value>
                 </Operation>
 
@@ -285,7 +356,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Tango_Blueprint"]/label</xpath>
                     <value>
-                        <label>Armored personnel carrier</label>
+                        <label>armored personnel carrier</label>
                     </value>
                 </Operation>
 
@@ -301,7 +372,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Trawler"]/label</xpath>
                     <value>
-                        <label>Large boat</label>
+                        <label>large boat</label>
                     </value>
                 </Operation>
 
@@ -315,7 +386,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Trawler_Blueprint"]/label</xpath>
                     <value>
-                        <label>Large boat</label>
+                        <label>large boat</label>
                     </value>
                 </Operation>
 
@@ -331,7 +402,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Wagon"]/label</xpath>
                     <value>
-                        <label>Family car</label>
+                        <label>compact hatchback</label>
                     </value>
                 </Operation>
 
@@ -345,7 +416,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Wagon_Blueprint"]/label</xpath>
                     <value>
-                        <label>Family car</label>
+                        <label>compact hatchback</label>
                     </value>
                 </Operation>
 
@@ -362,7 +433,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Warbird"]/label</xpath>
                     <value>
-                        <label>Fighter plane</label>
+                        <label>fighter plane</label>
                     </value>
                 </Operation>
 
@@ -376,7 +447,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Warbird_Blueprint"]/label</xpath>
                     <value>
-                        <label>Fighter plane</label>
+                        <label>fighter plane</label>
                     </value>
                 </Operation>
 
@@ -391,7 +462,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_Wisent"]/label</xpath>
                     <value>
-                        <label>Field carrier</label>
+                        <label>field carrier</label>
                     </value>
                 </Operation>
 
@@ -405,7 +476,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Wisent_Blueprint"]/label</xpath>
                     <value>
-                        <label>Field carrier</label>
+                        <label>field carrier</label>
                     </value>
                 </Operation>
 

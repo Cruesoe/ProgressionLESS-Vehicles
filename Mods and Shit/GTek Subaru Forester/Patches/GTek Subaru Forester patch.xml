@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>              
+
+<!-- Research -->
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HID_98Forester_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_FamilyCar</li></researchPrerequisites>
+                    </value>
+                </Operation>
+
+<!-- normal -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HID_98Forester_Blueprint"]/label</xpath>
+                    <value>
+                        <label>station wagon</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HID_98Forester_Blueprint"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="HID_98Forester"]/label</xpath>
+                    <value>
+                        <label>station wagon</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="HID_98Forester"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </Operation>
+
+
+
+<!-- Dropdowns -->
+
+                <!-- <Operation Class="PatchOperationAdd">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HID_98Forester_Blueprint"]</xpath>
+                    <value>
+                        <designatorDropdown>Ferny_PassengerCars</designatorDropdown>
+                    </value>
+                </Operation> -->
+
+
+</Patch>

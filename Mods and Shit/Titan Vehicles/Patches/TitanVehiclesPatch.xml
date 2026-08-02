@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>              
+
+
+<!-- ALTER PROJECTS -->
+
+
+
+<!-- Warchief -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="JAHV_RE_Warchief"]/label</xpath>
+                    <value>
+                        <label>warchief</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="JAHV_RE_Warchief"]/tab</xpath>
+                    <value>
+                        <tab>Vehicles</tab>
+                    </value>
+                </Operation>
+
+<!-- Superchief -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="JAHV_RE_Superchief"]/label</xpath>
+                    <value>
+                        <label>superchief</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="JAHV_RE_Superchief"]/tab</xpath>
+                    <value>
+                        <tab>Vehicles</tab>
+                    </value>
+                </Operation>
+
+<!-- Avenger -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="JAHV_RE_Avenger"]/label</xpath>
+                    <value>
+                        <label>heavy cargo helicopter</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="JAHV_RE_Avenger"]/tab</xpath>
+                    <value>
+                        <tab>Vehicles</tab>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="JAHV_RE_Avenger"]/prerequisites</xpath>
+                    <value>
+                        <prerequisites><li>VVE_Cherokee</li></prerequisites>
+                    </value>
+                </Operation>
+
+
+<!-- Conquistador -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="JAHV_RE_Conquistador"]/label</xpath>
+                    <value>
+                        <label>frigate warship</label>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="JAHV_RE_Conquistador"]/tab</xpath>
+                    <value>
+                        <tab>Vehicles</tab>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="JAHV_RE_Conquistador"]/prerequisites</xpath>
+                    <value>
+                        <prerequisites><li>Ferny_LargeBoat</li></prerequisites>
+                    </value>
+                </Operation>
+
+
+
+                <!-- <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_ComplexVehicles"]/baseCost</xpath>
+                    <value>
+                        <baseCost>1500</baseCost>
+                    </value>
+                </Operation> -->
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="JAHV_RE_Warchief"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>8.00</researchViewX>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="JAHV_RE_Warchief"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>0.30</researchViewY>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="JAHV_RE_Superchief"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>8.50</researchViewX>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="JAHV_RE_Superchief"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>1.10</researchViewY>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="JAHV_RE_Avenger"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>4.00</researchViewX>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="JAHV_RE_Avenger"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>0.80</researchViewY>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="JAHV_RE_Conquistador"]/researchViewX</xpath>
+                    <value>
+                        <researchViewX>3.00</researchViewX>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="JAHV_RE_Conquistador"]/researchViewY</xpath>
+                    <value>
+                        <researchViewY>3.70</researchViewY>
+                    </value>
+                </Operation>
+
+
+
+
+
+
+
+
+<!-- Avenger / Heavy cargo helicopter -->
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="JAHV_Avenger_Buildable"]/label</xpath>
+                    <value>
+                        <label>heavy cargo helicopter</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="JAHV_Avenger_Buildable"]/description</xpath>
+                    <value>
+                        <description>TODO! A Large prototype heavy Municipal cargo marine helicopter based on old world designs. While this version does not have defencive weapons the large cargo bay allows users to load smaller vehicles within.</description>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="JAHV_Avenger"]/label</xpath>
+                    <value>
+                        <label>heavy cargo helicopter</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="JAHV_Avenger"]/description</xpath>
+                    <value>
+                        <description>TODO! A Large prototype heavy Municipal cargo marine helicopter based on old world designs. While this version does not have defencive weapons the large cargo bay allows users to load smaller vehicles within.</description>
+                    </value>
+                </Operation>
+
+
+<!-- Conquistador / Frigate warship -->
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="JAHV_Conquistador_Blueprint"]/label</xpath>
+                    <value>
+                        <label>frigate warship</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="JAHV_Conquistador_Blueprint"]/description</xpath>
+                    <value>
+                        <description>TODO! A modified small frigate warship with a heavy flak cannon and expansive cargo bay. The large seacraft displaces a lot of space and should be used in large bodys of water.</description>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="JAHV_Avenger"]/label</xpath>
+                    <value>
+                        <label>frigate warship</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="JAHV_Avenger"]/description</xpath>
+                    <value>
+                        <description>TODO! A modified small frigate warship with a heavy flak cannon and expansive cargo bay. The large seacraft displaces a lot of space and should be used in large bodys of water.</description>
+                    </value>
+                </Operation>
+
+
+
+
+
+
+</Patch>

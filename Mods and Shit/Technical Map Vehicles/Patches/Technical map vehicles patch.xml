@@ -14,7 +14,14 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="Dreadnought_Blueprint"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A heavy-duty truck with a vast building platform on its bed, perfect for mounting weapons or transporting large amounts of equipment or other vehicles.</description>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="Dreadnought_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_HeavyPlatformTruck</li></researchPrerequisites>
                     </value>
                 </Operation>
 
@@ -28,16 +35,38 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="TMC_Dreadnought"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A heavy-duty truck with a vast building platform on its bed, perfect for mounting weapons or transporting large amounts of equipment or other vehicles.</description>
                     </value>
                 </Operation>
+
+                <Operation Class="PatchOperationFindMod">
+                    <mods>
+                    <li>Vehicle Interior Framework</li>
+                    </mods>
+                    <match Class="PatchOperationSequence">
+                    <operations>
+                        <li Class="PatchOperationReplace">
+                        <success>Always</success>
+                        <xpath>Defs/ResearchProjectDef[defName="Ferny_HeavyPlatformTruck"]/prerequisites</xpath>
+                        <value>
+                        <prerequisites>
+                            <li>Ferny_Motorhome</li>
+                        </prerequisites>
+                        </value>
+                        </li>
+                    </operations>
+                    </match>
+                </Operation>
+
+
+
 
 
 <!-- Mud head / Light platform truck -->
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="MudHead_Blueprint"]/label</xpath>
                     <value>
-                        <label>Platform truck</label>
+                        <label>Platform pickup truck</label>
                     </value>
                 </Operation>
 
@@ -49,9 +78,16 @@
                 </Operation>
 
                 <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="MudHead_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>VVE_ComplexVehicles</li></researchPrerequisites>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="TMC_MudHead"]/label</xpath>
                     <value>
-                        <label>Platform truck</label>
+                        <label>Platform pickup truck</label>
                     </value>
                 </Operation>
 
@@ -61,6 +97,93 @@
                         <description>text.todo</description>
                     </value>
                 </Operation>
+
+
+
+
+<!-- Land carrier -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="LandCarrier_Blueprint"]/label</xpath>
+                    <value>
+                        <label>Land carrier platform</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="LandCarrier_Blueprint"]/description</xpath>
+                    <value>
+                        <description>A behemoth moving platform, capable of sustaining a entire civilization on its surface.</description>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="LandCarrier_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_LandCarrierPlatform</li></researchPrerequisites>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="TMC_LandCarrier"]/label</xpath>
+                    <value>
+                        <label>Land carrier platform</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="TMC_LandCarrier"]/description</xpath>
+                    <value>
+                        <description>A behemoth moving platform, capable of sustaining a entire civilization on its surface.</description>
+                    </value>
+                </Operation>
+
+
+<!-- Sand patrol -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="SandPatrol_Blueprint"]/label</xpath>
+                    <value>
+                        <label>platform pickup truck</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="SandPatrol_Blueprint"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="SandPatrol_Blueprint"]/researchPrerequisites</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_PickupTruck</li></researchPrerequisites>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="TMC_SandPatrol"]/label</xpath>
+                    <value>
+                        <label>platform pickup truck</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="TMC_SandPatrol"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </Operation>
+
+
+
+
+
+
+
+
+
+
+
 
 
 </Patch>

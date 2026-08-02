@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>              
+
+
+<!-- Wireless power transmitter -->
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_WirelessTransmitter"]/label</xpath>
+    <value>
+        <label>wireless platform power transmitter</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_WirelessTransmitter"]/description</xpath>
+    <value>
+		<description>A device for transmitting and recieving power onto a vehicle platform. Vehicles can park over the transmitter to recieve power wirelessly. Must be placed on the ground.</description>
+    </value>
+</Operation>
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_WirelessTransmitter"]/researchPrerequisites</xpath>
+    <value>
+    	<researchPrerequisites>
+            <li>Ferny_PlatformLogistics</li>
+		</researchPrerequisites>
+    </value>
+</Operation>
+
+<!-- <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_WirelessReceiver"]/researchPrerequisites</xpath>
+    <value>
+    	<researchPrerequisites>
+            <li>Ferny_PlatformLogistics</li>
+		</researchPrerequisites>
+    </value>
+</Operation> -->
+
+
+<!-- Alternator-->
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_Alternator"]/label</xpath>
+    <value>
+        <label>platform alternator</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_Alternator"]/description</xpath>
+    <value>
+		<description>A component mounted onto a vehicle platform that uses vehicle fuel to generate electricity.</description>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_Alternator"]/researchPrerequisites</xpath>
+    <value>
+    	<researchPrerequisites>
+            <li>Ferny_PlatformLogistics</li>
+		</researchPrerequisites>
+    </value>
+</Operation>
+
+
+<!-- Pipe connector -->
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_PipeConnector"]/label</xpath>
+    <value>
+        <label>platform pipe connector</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_PipeConnector"]/description</xpath>
+    <value>
+		<description>A device that mounts onto the ground or a vehicle platform to transfer pipe contents.\nMust be placed on the ground and on the vehicle platform. They are connected by aligning their positions.</description>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_PipeConnector"]/researchPrerequisites</xpath>
+    <value>
+    	<researchPrerequisites>
+            <li>Ferny_PlatformLogistics</li>
+		</researchPrerequisites>
+    </value>
+</Operation>
+
+
+<!-- Zipline turret -->
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_Turret_ZiplineTurret"]/label</xpath>
+    <value>
+        <label>platform zipline turret</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_Turret_ZiplineTurret"]/description</xpath>
+    <value>
+		<description>A turret that sets up a zipline at the location where it pierces. Used for direct access between vehicles.</description>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_Turret_ZiplineTurret"]/researchPrerequisites</xpath>
+    <value>
+    	<researchPrerequisites>
+            <li>Ferny_PlatformLogistics</li>
+		</researchPrerequisites>
+    </value>
+</Operation>
+
+<!-- Driver seat -->
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_DriverSeat"]/label</xpath>
+    <value>
+        <label>platform driver seat</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_DriverSeat"]/description</xpath>
+    <value>
+		<description>A piloting seat that mounts onto vehicle platforms. Once installed, the vehicle can be controlled from its location.</description>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[@Name="VehicleSeatBase"]/researchPrerequisites</xpath>
+    <value>
+    	<researchPrerequisites>
+            <li>Ferny_PlatformLogistics</li>
+		</researchPrerequisites>
+    </value>
+</Operation>
+
+
+<!-- Gunner seat -->
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_GunnerSeat"]/label</xpath>
+    <value>
+        <label>platform gunner seat</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_GunnerSeat"]/description</xpath>
+    <value>
+		<description>A support seat that mounts onto vehicle platforms. Once installed, the selected weapon can be piloted from its location.</description>
+    </value>
+</Operation>
+
+
+<!-- Passenger seat -->
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_PassengerSeat"]/label</xpath>
+    <value>
+        <label>platform passenger seat</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_PassengerSeat"]/description</xpath>
+    <value>
+		<description>A crew seat that mounts onto vehicle platforms. Once installed, passengers can seat themselves on it.</description>
+    </value>
+</Operation>
+
+<!-- Ladder -->
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_Ladder"]/label</xpath>
+    <value>
+        <label>platform ladder</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_Ladder"]/description</xpath>
+    <value>
+		<description>A ladder for humans to ascend and descend from a vehicle platform. Colonists will prioritize exiting or entering in the location where this is placed.</description>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_Ladder"]/researchPrerequisites</xpath>
+    <value>
+    	<researchPrerequisites>
+            <li>Ferny_PlatformLogistics</li>
+		</researchPrerequisites>
+    </value>
+</Operation>
+
+<!-- Ramp (1x3) -->
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_RampMedium"]/label</xpath>
+    <value>
+        <label>platform ramp (1x3)</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_RampMedium"]/description</xpath>
+    <value>
+        <description>A ramp for vehicles to ascend and descend from a vehicle platform. Vehicles up to 3 squares wide can ascend and descend from here.</description>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[@Name="VehicleRampBase"]/researchPrerequisites</xpath>
+    <value>
+    	<researchPrerequisites>
+            <li>Ferny_PlatformLogistics</li>
+		</researchPrerequisites>
+    </value>
+</Operation>
+
+<!-- Ramp (1x5) -->
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_RampLarge"]/label</xpath>
+    <value>
+        <label>platform ramp (1x5)</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_RampLarge"]/description</xpath>
+    <value>
+        <description>A ramp for vehicles to ascend and descend to a vehicle map. Vehicles up to 5 squares wide can ascend and descend from here.</description>
+    </value>
+</Operation>
+
+
+
+<!-- Cargo container -->
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_CargoContainer"]/label</xpath>
+    <value>
+        <label>platform cargo box</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_CargoContainer"]/description</xpath>
+    <value>
+		<description>A mountable storage for additional cargo capacity for a platform's vehicle.\n\n&lt;color=#bb8f04&gt;Cargo capacity:&lt;/color&gt; +150 kg</description>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_CargoContainer"]/researchPrerequisites</xpath>
+    <value>
+    	<researchPrerequisites>
+            <li>Ferny_PlatformUpgrades</li>
+		</researchPrerequisites>
+    </value>
+</Operation>
+
+
+
+
+<!-- Turbo charger -->
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_TurboCharger"]/label</xpath>
+    <value>
+        <label>platform turbo charger</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_TurboCharger"]/description</xpath>
+    <value>
+		<description>A mountable component for vehicle platforms to enhance their maximum payload.\n\n&lt;color=#bb8f04&gt;Maximum payload:&lt;/color&gt; +500 kg\n&lt;color=#bb8f04&gt;Fuel Consumption:&lt;/color&gt; +8 /day</description>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_TurboCharger"]/researchPrerequisites</xpath>
+    <value>
+    	<researchPrerequisites>
+            <li>Ferny_PlatformUpgrades</li>
+		</researchPrerequisites>
+    </value>
+</Operation>
+
+
+<!-- Lift fan -->
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_LiftFan"]/label</xpath>
+    <value>
+        <label>platform lift fan</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_LiftFan"]/description</xpath>
+    <value>
+		<description>A mountable component for hover vehicle platforms to increase their maximum payload.\n\n&lt;color=#bb8f04&gt;Maximum Payload:&lt;/color&gt; +250 kg\n&lt;color=#bb8f04&gt;Fuel Consumption:&lt;/color&gt; +4 /day</description>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_LiftFan"]/researchPrerequisites</xpath>
+    <value>
+    	<researchPrerequisites>
+            <li>Ferny_PlatformUpgrades</li>
+		</researchPrerequisites>
+    </value>
+</Operation>
+
+
+
+<!-- Fuel tank -->
+
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_FuelTank"]/label</xpath>
+    <value>
+        <label>platform fuel tank</label>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_FuelTank"]/description</xpath>
+    <value>
+		<description>A mountable component for vehicle platforms that increases the fuel capacity of the vehicle.\n\n&lt;color=#bb8f04&gt;Fuel capacity:&lt;/color&gt; +300</description>
+    </value>
+</Operation>
+<Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[defName="VMF_FuelTank"]/researchPrerequisites</xpath>
+    <value>
+    	<researchPrerequisites>
+            <li>Ferny_PlatformUpgrades</li>
+		</researchPrerequisites>
+    </value>
+</Operation>
+
+
+
+
+
+
+
+
+
+</Patch>

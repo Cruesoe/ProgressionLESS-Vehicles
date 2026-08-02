@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>              
+
+<!-- Research -->
+
+                <Operation Class="PatchOperationAdd">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_FordBBus_Blueprint"]</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_PassengerBus</li></researchPrerequisites>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationAdd">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_FordBBusG_Blueprint"]</xpath>
+                    <value>
+                        <researchPrerequisites><li>Ferny_PassengerBus</li></researchPrerequisites>
+                    </value>
+                </Operation>
+
+<!-- normal -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_FordBBus_Blueprint"]/label</xpath>
+                    <value>
+                        <label>passenger bus</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_FordBBus_Blueprint"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="HE_FordBBus"]/label</xpath>
+                    <value>
+                        <label>passenger bus</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="HE_FordBBus"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </Operation>
+
+
+
+
+
+<!-- government -->
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_FordBBusG_Blueprint"]/label</xpath>
+                    <value>
+                        <label>passenger bus (government style)</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_FordBBusG_Blueprint"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="HE_FordBBus"]/label</xpath>
+                    <value>
+                        <label>passenger bus (government style)</label>
+                    </value>
+                </Operation>
+
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="HE_FordBBus"]/description</xpath>
+                    <value>
+                        <description>text.todo</description>
+                    </value>
+                </Operation>
+
+
+
+
+
+
+
+
+
+<!-- Dropdowns -->
+
+                <Operation Class="PatchOperationAdd">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_FordBBus_Blueprint"]</xpath>
+                    <value>
+                        <designatorDropdown>Ferny_PassengerBuses</designatorDropdown>
+                    </value>
+                </Operation>
+                <Operation Class="PatchOperationAdd">
+                    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_FordBBusG_Blueprint"]</xpath>
+                    <value>
+                        <designatorDropdown>Ferny_PassengerBuses</designatorDropdown>
+                    </value>
+                </Operation>
+
+
+
+</Patch>

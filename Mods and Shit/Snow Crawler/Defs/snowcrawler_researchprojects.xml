@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<ResearchProjectDef>
+		<defName>Ferny_SnowCrawler</defName>
+		<label>Snowcrawler</label>
+		<description>Build a slow vehicle designed to traverse snow and winter terrain without trouble. Its engine makes a lot of noise.</description>
+		<baseCost>1000</baseCost>
+		<techLevel>Industrial</techLevel>
+		<tab>Vehicles</tab>
+		<researchViewX>30.00</researchViewX>
+		<researchViewY>3.00</researchViewY>
+		<prerequisites>
+			<li>VVE_BasicVehicles</li>
+		</prerequisites>
+	</ResearchProjectDef>
+
+
+</Defs>

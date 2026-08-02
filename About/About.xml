@@ -7,6 +7,16 @@
 		<li>1.6</li>
 	</supportedVersions>
 	<description>Remix all the vehicles in Rimworld.</description>
+    <modDependencies>
+        <li>
+            <packageId>OskarPotocki.VanillaVehiclesExpanded</packageId>
+            <displayName>Vanilla Vehicles Expanded</displayName>
+            <steamWorkshopUrl>steam://url/CommunityFilePage/3014906877</steamWorkshopUrl>
+        </li>
+    </modDependencies>
+    <incompatibleWith>
+        <li>Lyn.VVERenamed</li>
+    </incompatibleWith>
 	<loadAfter>
 		<li>Ludeon.Rimworld</li>
 		<li>Ludeon.Rimworld.Royalty</li>
@@ -21,5 +31,12 @@
 		<li>oskarpotocki.vanillavehiclesexpanded</li>
 		<li>chaotic.rvinterior</li>
 		<li>oskarpotocki.vanillavehiclesexpandedtier3</li>
+		<li>OELS.VehicleMapFramework</li>
+		<li>jahv.spacervehicleshal.continued</li>
+		<li>he.fbbus</li>
+		<li>killerbot.subaruforester</li>
+		<li>he.ct</li>
+		<li>he.f350a</li>
+		<li>he.fcvpi</li>
 	</loadAfter>
 </ModMetaData>

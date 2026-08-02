@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+	<!-- <VMF_ForceOnVehicle>Cannot be placed outside a vehicle map.</VMF_ForceOnVehicle> -->
+	<VMF_ForceOnVehicle>Can only be placed on a vehicle platform.</VMF_ForceOnVehicle>
+
+	<!-- <VMF_ForceOnHoverVehicle>Cannot be placed outside a hover vehicle map.</VMF_ForceOnHoverVehicle> -->
+	<VMF_ForceOnHoverVehicle>Can only be placed on a hover vehicle platform.</VMF_ForceOnHoverVehicle>
+
+	<!-- <VMF_ForbidOnVehicle>Cannot be placed on a vehicle map.</VMF_ForbidOnVehicle> -->
+	<VMF_ForbidOnVehicle>Cannot be placed on a vehicle platform.</VMF_ForbidOnVehicle>
+
+	<!-- <VMF_ForbidOnHumanPoweredVehicle>Cannot be placed on a human powered vehicle map.</VMF_ForbidOnHumanPoweredVehicle> -->
+	<VMF_ForbidOnHumanPoweredVehicle>Cannot be placed on a human powered vehicle platform.</VMF_ForbidOnHumanPoweredVehicle>
+
+
+	<!-- <VMF_ForceOnVehicleMapEdge>Cannot be placed outside the edge of a vehicle map.</VMF_ForceOnVehicleMapEdge> -->
+	<VMF_ForceOnVehicleMapEdge>Can only be placed on the edge of a vehicle platform.</VMF_ForceOnVehicleMapEdge>
+
+
+
+	<VMF_ForceOnRelatedVehicle>This building is not related to this vehicle.</VMF_ForceOnRelatedVehicle>
+
+
+
+	<!-- <VMF_ForceOnRelatedBuilding>It can only be built on top of related buildings.</VMF_ForceOnRelatedBuilding> -->
+	<VMF_ForceOnRelatedBuilding>Can only be built on top of related buildings.</VMF_ForceOnRelatedBuilding>
+
+
+
+
+	<VMF_NoRoles>No roles for operating this turret in {0}.</VMF_NoRoles>
+
+
+
+
+	<!-- <VMF_FailedEnterMap>The vehicle failed to enter the map.</VMF_FailedEnterMap> -->
+	<VMF_FailedEnterMap>The vehicle failed to board the platform.</VMF_FailedEnterMap>
+
+
+
+	<VMF_CannotSpawn>{0} cannot spawn.</VMF_CannotSpawn>
+
+
+
+	<!-- <VMF_MustShotAtAnotherMap>Ziplines must be shot at another map.</VMF_MustShotAtAnotherMap> -->
+	<VMF_MustShotAtAnotherMap>Ziplines must be shot at another platform.</VMF_MustShotAtAnotherMap>
+
+
+
+	<VMF_GrapplingHookAlreadyLaunched>The grappling hook has already been deployed.</VMF_GrapplingHookAlreadyLaunched>
+	
+	<!-- <VMF_ApplyingDynamicPatches>Applying Dynamic Patches</VMF_ApplyingDynamicPatches> -->
+	<VMF_ApplyingDynamicPatches>Enabling vehicle platforms</VMF_ApplyingDynamicPatches>
+	<!-- <VMF_UnpatchingDynamicPatches>Unpatching Dynamic Patches</VMF_UnpatchingDynamicPatches> -->
+	<VMF_UnpatchingDynamicPatches>Disabling vehicle platforms</VMF_UnpatchingDynamicPatches>
+	
+
+	<!-- <VMF_ContainsMapVehicle>There are some map vehicles on the gravship structure.</VMF_ContainsMapVehicle> -->
+	<VMF_ContainsMapVehicle>There are some platform vehicles on the gravship structure.</VMF_ContainsMapVehicle>
+
+	<!-- <VMF_ContainsForbidOnVehicle>{0} cannot be placed on the vehicle map.</VMF_ContainsForbidOnVehicle> -->
+	<VMF_ContainsForbidOnVehicle>{0} cannot be placed on the vehicle platform.</VMF_ContainsForbidOnVehicle>
+
+
+	<VMF_RectContainsImpassable>Vehicle rectangle contains impassable cells.</VMF_RectContainsImpassable>
+	<VMF_WheelsUnstable>Vehicle would be unstable. Number of valid wheels: {0}</VMF_WheelsUnstable>
+	<VMF_CannotSetDownDiagonal>{0} cannot set down at an angle.</VMF_CannotSetDownDiagonal>
+	<VMF_CannotLaunchNoPilot>no pilot</VMF_CannotLaunchNoPilot>
+	
+	<VMF_GravshipVehicleDestroyed>The gravship vehicle has been destroyed</VMF_GravshipVehicleDestroyed>
+
+	<VMF_AreaDeselect>This map does not have the area {0}.</VMF_AreaDeselect>
+</LanguageData>
