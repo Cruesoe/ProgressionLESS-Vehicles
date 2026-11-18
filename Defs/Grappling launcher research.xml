@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef MayRequire="oels.mapvehicles.oceanexpansion">
+    <defName>Ferny_GrapplingLauncher</defName>
+    <label>Grappling launcher</label>
+    <description>Build grappling launchers to move between boats using mooring rings.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tab>Vehicles</tab>
+    <prerequisites>
+      <li MayRequire="dankpyon.medieval.overhaul">DankPyon_Ballista</li>
+    </prerequisites>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>4.50</researchViewY>
+  </ResearchProjectDef>
+</Defs>

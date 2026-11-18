@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="SandPatrol_Blueprint"]/costList</xpath>
+    <value>
+      <costList>
+        <VVE_EngineBlock>1</VVE_EngineBlock>
+        <Steel>350</Steel>
+        <Chemfuel>200</Chemfuel>
+        <ComponentIndustrial>12</ComponentIndustrial>
+        <VVE_CarWheel>4</VVE_CarWheel>
+        <VVE_CarSuspension>4</VVE_CarSuspension>
+        <VVE_CarAlternator>1</VVE_CarAlternator>
+        <VVE_CarFuelTank>1</VVE_CarFuelTank>
+        <VVE_CarTransmission>1</VVE_CarTransmission>
+        <VVE_CarRadiator>1</VVE_CarRadiator>
+        <VVE_CarExhaust>1</VVE_CarExhaust>
+      </costList>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="MudHead_Blueprint"]/costList</xpath>
+    <value>
+      <costList>
+        <VVE_EngineBlock>1</VVE_EngineBlock>
+        <Steel>450</Steel>
+        <Chemfuel>180</Chemfuel>
+        <ComponentIndustrial>16</ComponentIndustrial>
+        <VVE_CarWheel>6</VVE_CarWheel>
+        <VVE_CarSuspension>6</VVE_CarSuspension>
+        <VVE_CarAlternator>1</VVE_CarAlternator>
+        <VVE_CarFuelTank>1</VVE_CarFuelTank>
+        <VVE_CarTransmission>1</VVE_CarTransmission>
+        <VVE_CarRadiator>1</VVE_CarRadiator>
+        <VVE_CarExhaust>2</VVE_CarExhaust>
+      </costList>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="Dreadnought_Blueprint"]/costList</xpath>
+    <value>
+      <costList>
+        <VVE_EngineBlock>4</VVE_EngineBlock>
+        <Steel>2500</Steel>
+        <Chemfuel>480</Chemfuel>
+        <ComponentIndustrial>35</ComponentIndustrial>
+        <Plasteel>80</Plasteel>
+        <ComponentSpacer>4</ComponentSpacer>
+        <VVE_CarWheel>12</VVE_CarWheel>
+        <VVE_CarSuspension>16</VVE_CarSuspension>
+        <VVE_CarAlternator>2</VVE_CarAlternator>
+        <VVE_CarFuelTank>2</VVE_CarFuelTank>
+        <VVE_CarTransmission>2</VVE_CarTransmission>
+        <VVE_CarRadiator>4</VVE_CarRadiator>
+        <VVE_CarExhaust>6</VVE_CarExhaust>
+      </costList>
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="LandCarrier_Blueprint"]/costList</xpath>
+    <value>
+      <costList>
+        <VVE_EngineBlock>8</VVE_EngineBlock>
+        <Steel>5500</Steel>
+        <Chemfuel>880</Chemfuel>
+        <ComponentIndustrial>95</ComponentIndustrial>
+        <Plasteel>2550</Plasteel>
+        <ComponentSpacer>34</ComponentSpacer>
+        <VVE_CarWheel>32</VVE_CarWheel>
+        <VVE_CarSuspension>32</VVE_CarSuspension>
+        <VVE_CarAlternator>8</VVE_CarAlternator>
+        <VVE_CarFuelTank>8</VVE_CarFuelTank>
+        <VVE_CarTransmission>8</VVE_CarTransmission>
+        <VVE_CarRadiator>12</VVE_CarRadiator>
+        <VVE_CarExhaust>16</VVE_CarExhaust>
+      </costList>
+    </value>
+  </Operation>
+
+  <!-- Swap only the engine ingredient after the base recipes are in place. -->
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Engine Industries</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationSetName">
+          <xpath>/Defs/Vehicles.VehicleBuildDef[defName="SandPatrol_Blueprint"]/costList/VVE_EngineBlock</xpath>
+          <name>EngineLight</name>
+        </li>
+        <li Class="PatchOperationSetName">
+          <xpath>/Defs/Vehicles.VehicleBuildDef[defName="MudHead_Blueprint"]/costList/VVE_EngineBlock</xpath>
+          <name>EngineMedium</name>
+        </li>
+        <li Class="PatchOperationSetName">
+          <xpath>/Defs/Vehicles.VehicleBuildDef[defName="Dreadnought_Blueprint"]/costList/VVE_EngineBlock</xpath>
+          <name>EngineHeavy</name>
+        </li>
+        <li Class="PatchOperationSetName">
+          <xpath>/Defs/Vehicles.VehicleBuildDef[defName="LandCarrier_Blueprint"]/costList/VVE_EngineBlock</xpath>
+          <name>EngineTurbine</name>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

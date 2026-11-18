@@ -3,7 +3,7 @@
 	<ResearchProjectDef>
 		<defName>Ferny_FlatbedCargoTruck</defName>
 		<label>Flatbed cargo truck</label>
-		<description>text.todo</description>
+		<description>Build a heavy flatbed truck for hauling bulk supplies, with room in the cab for a driver and one passenger.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Industrial</techLevel>
 		<tab>Vehicles</tab>

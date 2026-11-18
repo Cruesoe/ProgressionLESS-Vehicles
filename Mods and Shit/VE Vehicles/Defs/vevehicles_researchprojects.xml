@@ -276,20 +276,6 @@
 	</ResearchProjectDef>
 
 	<ResearchProjectDef>
-		<defName>Ferny_MediumTank</defName>
-		<label>Medium tank</label>
-		<description>Build a medium tank with decent armor in all sides, with the thinnest plating at the rear. Has a medium fuel efficiency, performs better in difficult terrain, and is quite visible.</description>
-		<baseCost>1500</baseCost>
-		<tab>Vehicles</tab>
-		<techLevel>Industrial</techLevel>
-		<researchViewX>6.00</researchViewX>
-		<researchViewY>1.50</researchViewY>
-		<prerequisites>
-			<li>Ferny_LightTank</li>
-		</prerequisites>
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
 		<defName>Ferny_LargeBoat</defName>
 		<label>Large boat</label>
 		<description>Build a vessel with high cargo capacity and good fuel efficiency. It has low visibility, but will have trouble moving on rivers or during winter.</description>

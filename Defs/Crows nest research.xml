@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef MayRequire="oels.mapvehicles.oceanexpansion">
+    <defName>Ferny_CrowsNest</defName>
+    <label>Crow's nest</label>
+    <description>Build mast-mounted lookouts to spot islands and shipwrecks.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Medieval</techLevel>
+    <tab>MVO_Ocean</tab>
+    <prerequisites>
+      <li>MVO_RigI</li>
+    </prerequisites>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>1.50</researchViewY>
+  </ResearchProjectDef>
+</Defs>

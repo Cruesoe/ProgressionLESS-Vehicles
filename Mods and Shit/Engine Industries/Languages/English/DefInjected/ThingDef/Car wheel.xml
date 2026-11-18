@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- ReplaceLib routes this legacy ID to VVE_CarWheel. -->
+  <ComponentWheelTire.label>car wheel</ComponentWheelTire.label>
+  <ComponentWheelTire.description>One of the most ancient technologies developed by man, the wheel takes the power from the engine and translates it into movement. As wheels have to not only move the vehicle in whichever direction necessary but also withstand the combined weight, larger and heavier vehicles can need several or dozens of them.</ComponentWheelTire.description>
+</LanguageData>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef>
+    <defName>Ferny_HeavyEngine</defName>
+    <label>Heavy engine</label>
+    <description>Assemble heavy engines.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>HeavyIndustry</tab>
+    <prerequisites>
+      <li>EnginePlus</li>
+    </prerequisites>
+    <researchViewX>5.00</researchViewX>
+    <researchViewY>2.15</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>Ferny_JetEngine</defName>
+    <label>Jet engine</label>
+    <description>Assemble jet engines.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>HeavyIndustry</tab>
+    <prerequisites>
+      <li>EnginePlus</li>
+      <li>MicroelectronicsBasics</li>
+    </prerequisites>
+    <researchViewX>7.00</researchViewX>
+    <researchViewY>4.15</researchViewY>
+  </ResearchProjectDef>
+</Defs>

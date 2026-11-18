@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ResearchProjectDef MayRequire="oels.mapvehicles.oceanexpansion">
+    <defName>Ferny_Gangplank</defName>
+    <label>Gangplank</label>
+    <description>Build gangplanks to cross between boats.</description>
+    <baseCost>400</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <tab>MVO_Ocean</tab>
+    <prerequisites>
+      <li>MVO_ExpandableRaft</li>
+    </prerequisites>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>0.00</researchViewY>
+  </ResearchProjectDef>
+</Defs>

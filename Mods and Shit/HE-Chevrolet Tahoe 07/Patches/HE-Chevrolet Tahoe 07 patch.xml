@@ -43,7 +43,7 @@
                 <li Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_CT_Blueprint"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A roomy full-size SUV for hauling passengers and their gear.</description>
                     </value>
                 </li>
 
@@ -57,7 +57,7 @@
                 <li Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="HE_CT"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A roomy full-size SUV for hauling passengers and their gear.</description>
                     </value>
                 </li>
 
@@ -73,7 +73,7 @@
                 <li Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_CTPD_Blueprint"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A full-size passenger SUV in sheriff livery, with the same roomy cabin as the civilian model.</description>
                     </value>
                 </li>
 
@@ -87,7 +87,7 @@
                 <li Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="HE_CTPD"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A full-size passenger SUV in sheriff livery, with the same roomy cabin as the civilian model.</description>
                     </value>
                 </li>
 
@@ -103,7 +103,7 @@
                 <li Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_CTSO_Blueprint"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A full-size passenger SUV in police livery, built on the same chassis as the civilian model.</description>
                     </value>
                 </li>
 
@@ -117,7 +117,7 @@
                 <li Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="HE_CTSO"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A full-size passenger SUV in police livery, built on the same chassis as the civilian model.</description>
                     </value>
                 </li>
 

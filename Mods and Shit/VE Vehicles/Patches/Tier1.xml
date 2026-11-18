@@ -34,17 +34,33 @@
                     </value>
                 </Operation>
 
-                <!-- VVE_CombatVehicles -->
+                <!-- Reuse Combat vehicles for the Bulldog's Medium tank research. -->
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_CombatVehicles"]/label</xpath>
+                    <value><label>Medium tank</label></value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_CombatVehicles"]/description</xpath>
+                    <value><description>Build the Bulldog, a medium tank with solid armor and good performance on rough terrain.</description></value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_CombatVehicles"]/baseCost</xpath>
+                    <value><baseCost>1500</baseCost></value>
+                </Operation>
+                <Operation Class="PatchOperationReplace">
+                    <xpath>/Defs/ResearchProjectDef[defName="VVE_CombatVehicles"]/prerequisites</xpath>
+                    <value><prerequisites><li>Ferny_LightTank</li></prerequisites></value>
+                </Operation>
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="VVE_CombatVehicles"]/researchViewX</xpath>
                     <value>
-                        <researchViewX>7.00</researchViewX>
+                        <researchViewX>6.00</researchViewX>
                     </value>
                 </Operation>
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="VVE_CombatVehicles"]/researchViewY</xpath>
                     <value>
-                        <researchViewY>0.90</researchViewY>
+                        <researchViewY>1.50</researchViewY>
                     </value>
                 </Operation>
 

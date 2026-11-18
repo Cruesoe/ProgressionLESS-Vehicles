@@ -27,7 +27,7 @@
                     <xpath>Defs/ResearchProjectDef[defName="VVE_BattleTanks"]/prerequisites</xpath>
                     <value>
                         <prerequisites>
-                        <li>Ferny_MediumTank</li>
+                        <li>VVE_CombatVehicles</li>
                         </prerequisites>
                     </value>
                 </Operation>

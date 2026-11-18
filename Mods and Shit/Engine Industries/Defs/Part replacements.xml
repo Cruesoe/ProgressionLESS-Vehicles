@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ReplaceLib.ReplacerDef MayRequire="ferny.replacelib">
+    <defName>Ferny_EngineIndustriesParts</defName>
+    <replacers>
+      <li>
+        <replace>VVE_EngineBlock</replace>
+        <with>EngineMedium</with>
+      </li>
+      <li>
+        <replace>ComponentWheelTire</replace>
+        <with>VVE_CarWheel</with>
+      </li>
+    </replacers>
+  </ReplaceLib.ReplacerDef>
+</Defs>

@@ -73,7 +73,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="MudHead_Blueprint"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A compact work truck with a broad, open bed. Supplies can be placed directly on the deck, leaving the cab free for a driver and one passenger.</description>
                     </value>
                 </Operation>
 
@@ -94,7 +94,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="TMC_MudHead"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A compact work truck with a broad, open bed. Supplies can be placed directly on the deck, leaving the cab free for a driver and one passenger.</description>
                     </value>
                 </Operation>
 
@@ -149,14 +149,14 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="SandPatrol_Blueprint"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A sturdy two-seat pickup with a small, open building deck in place of a conventional cargo bed. Use the deck for supplies or mounted equipment.</description>
                     </value>
                 </Operation>
 
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="SandPatrol_Blueprint"]/researchPrerequisites</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_PickupTruck</li></researchPrerequisites>
+                        <researchPrerequisites><li>VVE_ComplexVehicles</li></researchPrerequisites>
                     </value>
                 </Operation>
 
@@ -170,7 +170,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="TMC_SandPatrol"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A sturdy two-seat pickup with a small, open building deck in place of a conventional cargo bed. Use the deck for supplies or mounted equipment.</description>
                     </value>
                 </Operation>
 

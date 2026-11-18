@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- Change the ingredient only; keep its count and the rest of the recipe. -->
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <!-- EngineLight -->
+      <li Class="PatchOperationSetName">
+        <xpath>/Defs/Vehicles.VehicleBuildDef[
+          defName="VVE_BangBus_Blueprint"
+          or defName="VVE_Bunsen_Blueprint"
+          or defName="VVE_Dinghy_Blueprint"
+          or defName="VVE_Dirtbike_Blueprint"
+          or defName="VVE_Frog_Blueprint"
+          or defName="VVE_Highwayman_Blueprint"
+          or defName="VVE_Mule_Blueprint"
+          or defName="VVE_Prowler_Blueprint"
+          or defName="VVE_Roadkill_Blueprint"
+          or defName="VVE_Scytheman_Blueprint"
+          or defName="VVE_Toad_Blueprint"
+          or defName="VVE_Traveller_Blueprint"
+          or defName="VVE_Charley_Blueprint"
+        ]/costList/VVE_EngineBlock</xpath>
+        <name>EngineLight</name>
+      </li>
+      <!-- EngineMedium -->
+      <li Class="PatchOperationSetName">
+        <xpath>/Defs/Vehicles.VehicleBuildDef[
+          defName="VVE_Mosquito_Blueprint"
+          or defName="VVE_Roadrunner_Blueprint"
+          or defName="VVE_Smuggler_Blueprint"
+          or defName="VVE_Snatcher_Blueprint"
+          or defName="VVE_Wagon_Blueprint"
+          or defName="VVE_Warbird_Blueprint"
+        ]/costList/VVE_EngineBlock</xpath>
+        <name>EngineMedium</name>
+      </li>
+      <!-- EngineHeavy -->
+      <li Class="PatchOperationSetName">
+        <xpath>/Defs/Vehicles.VehicleBuildDef[
+          defName="VVE_Bulldog_Blueprint"
+          or defName="VVE_Tango_Blueprint"
+          or defName="VVE_Trawler_Blueprint"
+          or defName="VVE_Wisent_Blueprint"
+        ]/costList/VVE_EngineBlock</xpath>
+        <name>EngineHeavy</name>
+      </li>
+    </operations>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Vehicles Expanded - Tier 3</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <!-- EngineMedium -->
+        <li Class="PatchOperationSetName">
+          <xpath>/Defs/Vehicles.VehicleBuildDef[
+            defName="VVE_Lightning_Blueprint"
+            or defName="VVE_Nomad_Blueprint"
+            or defName="VVE_Springbok_Blueprint"
+          ]/costList/VVE_EngineBlock</xpath>
+          <name>EngineMedium</name>
+        </li>
+        <!-- EngineHeavy -->
+        <li Class="PatchOperationSetName">
+          <xpath>/Defs/Vehicles.VehicleBuildDef[
+            defName="VVE_Badger_Blueprint"
+            or defName="VVE_BigRig_Blueprint"
+            or defName="VVE_Burya_Blueprint"
+            or defName="VVE_Hermano_Blueprint"
+            or defName="VVE_Paladin_Blueprint"
+          ]/costList/VVE_EngineBlock</xpath>
+          <name>EngineHeavy</name>
+        </li>
+        <!-- EngineTurbine -->
+        <li Class="PatchOperationSetName">
+          <xpath>/Defs/Vehicles.VehicleBuildDef[
+            defName="VVE_Cherokee_Blueprint"
+            or defName="VVE_Goliath_Blueprint"
+            or defName="VVE_Louie_Blueprint"
+            or defName="VVE_Marshal_Blueprint"
+            or defName="VVE_Udar_Blueprint"
+          ]/costList/VVE_EngineBlock</xpath>
+          <name>EngineTurbine</name>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Vanilla Vehicles Expanded - Upgrades</li>
+    </mods>
+    <match Class="PatchOperationSetName">
+      <xpath>/Defs/Vehicles.UpgradeTreeDef/nodes/li[key="Speed"]/ingredients/VVE_EngineBlock</xpath>
+      <name>EngineLight</name>
+    </match>
+  </Operation>
+</Patch>

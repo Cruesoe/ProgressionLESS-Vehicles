@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="EngineBasis"]/label</xpath>
+    <value><label>Steam engine</label></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="EngineBasis"]/description</xpath>
+    <value><description>Assemble steam engines.</description></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="EnginePlus"]/label</xpath>
+    <value><label>Medium engine</label></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="EnginePlus"]/description</xpath>
+    <value><description>Assemble medium engines.</description></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="EngineAdvanced"]/label</xpath>
+    <value><label>Turbine engine</label></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="EngineAdvanced"]/description</xpath>
+    <value><description>Assemble turbine engines.</description></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="Make_EngineAssemble_Light"]/researchPrerequisite</xpath>
+    <value><researchPrerequisite>VVE_BasicVehicles</researchPrerequisite></value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[defName="VVE_BasicVehicles"]/prerequisites</xpath>
+    <value><li>Machining</li></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="Make_EngineAssemble_Heavy"]/researchPrerequisite</xpath>
+    <value><researchPrerequisite>Ferny_HeavyEngine</researchPrerequisite></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="Make_EngineAssemble_TurboJet"]/researchPrerequisite</xpath>
+    <value><researchPrerequisite>Ferny_JetEngine</researchPrerequisite></value>
+  </Operation>
+
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ResearchProjectDef[defName="EnginePlus"]/prerequisites</xpath>
+    <value>
+      <prerequisites>
+        <li>VVE_BasicVehicles</li>
+      </prerequisites>
+    </value>
+  </Operation>
+
+  <!-- Add each engine gate at the first project on the branch that uses it. -->
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[
+      defName="VVE_ComplexVehicles"
+      or defName="VVE_AerialVehicles"
+      or defName="Ferny_FamilyCar"
+    ]/prerequisites</xpath>
+    <value><li>EnginePlus</li></value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>/Defs/ResearchProjectDef[
+      defName="Ferny_APC"
+      or defName="Ferny_FieldCarrier"
+      or defName="Ferny_LargeBoat"
+      or defName="Ferny_HeavyPlatformTruck"
+      or defName="VVE_BigRigs"
+      or defName="VVE_LightArmoredVehicles"
+      or defName="VVE_RocketArtillery"
+    ]/prerequisites</xpath>
+    <value><li>Ferny_HeavyEngine</li></value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/ResearchProjectDef[
+      defName="Ferny_LandCarrierPlatform"
+      or defName="VVE_BattleTanks"
+      or defName="VVE_Cherokee"
+      or defName="VVE_Louie"
+      or defName="VVE_SiegePods"
+      or defName="VVE_SelfpropelledArtillery"
+    ]/prerequisites</xpath>
+    <value><li>EngineAdvanced</li></value>
+  </Operation>
+</Patch>

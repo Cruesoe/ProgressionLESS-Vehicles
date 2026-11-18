@@ -81,7 +81,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Bulldog_Blueprint"]/researchPrerequisites</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_MediumTank</li></researchPrerequisites>
+                        <researchPrerequisites><li>VVE_CombatVehicles</li></researchPrerequisites>
                     </value>
                 </Operation>
 

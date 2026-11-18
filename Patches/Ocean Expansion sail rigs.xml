@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationFindMod">
+    <mods>
+      <li>Map Vehicles &#x2013; Ocean Expansion</li>
+    </mods>
+    <match Class="PatchOperationSequence">
+      <operations>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[@Name="MVO_CrowsNestBase"]/researchPrerequisites</xpath>
+          <value>
+            <researchPrerequisites Inherit="False">
+              <li>Ferny_CrowsNest</li>
+            </researchPrerequisites>
+          </value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ResearchProjectDef[defName="MVO_RigI"]/description</xpath>
+          <value><description>Build a single-sail rig to increase a ship's speed.</description></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ResearchProjectDef[defName="MVO_RigI"]/label</xpath>
+          <value><label>Single-sail rig</label></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ResearchProjectDef[defName="MVO_RigII"]/label</xpath>
+          <value><label>Advanced sail rigs</label></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="MVO_RigOneTiered"]/label</xpath>
+          <value><label>single-sail rig</label></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="MVO_RigTwoTiered"]/label</xpath>
+          <value><label>double-sail rig</label></value>
+        </li>
+        <li Class="PatchOperationReplace">
+          <xpath>/Defs/ThingDef[defName="MVO_RigThreeTiered"]/label</xpath>
+          <value><label>triple-sail rig</label></value>
+        </li>
+      </operations>
+    </match>
+  </Operation>
+</Patch>

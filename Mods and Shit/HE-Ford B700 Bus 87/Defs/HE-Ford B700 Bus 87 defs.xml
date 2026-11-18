@@ -4,7 +4,7 @@
 	<ResearchProjectDef>
 		<defName>Ferny_PassengerBus</defName>
 		<label>Passenger bus</label>
-		<description>text.todo</description>
+		<description>Build medium-duty buses for moving up to 28 passengers and their luggage in a single vehicle.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Industrial</techLevel>
 		<researchViewX>4.50</researchViewX>

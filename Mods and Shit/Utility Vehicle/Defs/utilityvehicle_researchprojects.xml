@@ -6,7 +6,7 @@
 	<ResearchProjectDef>
 		<defName>Ferny_LightUtilityJeep</defName>
 		<label>Light utility jeep</label>
-		<description>text.todo</description>
+		<description>Build a light utility jeep for scouting and transporting a small crew over rough terrain.</description>
 		<baseCost>1000</baseCost>
 		<techLevel>Industrial</techLevel>
 		<researchViewX>4.50</researchViewX>

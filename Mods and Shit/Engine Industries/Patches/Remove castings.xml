@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <!-- One casting originally cost 100 steel and a disposable mold. -->
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/RecipeDef[defName="Make_EngineAssemble_Steam"]/ingredients/li[filter/thingDefs/li="ComponentHeavyCasting"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="Make_EngineAssemble_Steam"]/ingredients/li[filter/thingDefs/li="Steel"]/count</xpath>
+    <value><count>150</count></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="Make_EngineAssemble_Medium"]/ingredients/li[filter/thingDefs/li="ComponentHeavyCasting"]</xpath>
+    <value>
+      <li>
+        <filter><thingDefs><li>Steel</li></thingDefs></filter>
+        <count>200</count>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="Make_EngineAssemble_Heavy"]/ingredients/li[filter/thingDefs/li="ComponentHeavyCasting"]</xpath>
+    <value>
+      <li>
+        <filter><thingDefs><li>Steel</li></thingDefs></filter>
+        <count>400</count>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="Make_EngineAssemble_TurboJet"]/ingredients/li[filter/thingDefs/li="ComponentHeavyCasting"]</xpath>
+    <value>
+      <li>
+        <filter><thingDefs><li>Steel</li></thingDefs></filter>
+        <count>100</count>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[defName="Make_EngineAssemble_Turbine"]/ingredients/li[filter/thingDefs/li="ComponentHeavyCasting"]</xpath>
+    <value>
+      <li>
+        <filter><thingDefs><li>Steel</li></thingDefs></filter>
+        <count>300</count>
+      </li>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/RecipeDef[defName="Make_EngineAssemble_Steam"]/fixedIngredientFilter/thingDefs/li[text()="ComponentHeavyCasting"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/RecipeDef[starts-with(defName, "Make_EngineAssemble_") and defName!="Make_EngineAssemble_Steam"]/fixedIngredientFilter/thingDefs/li[text()="ComponentHeavyCasting"]</xpath>
+    <value><li>Steel</li></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[starts-with(defName, "Engine")]/butcherProducts/ComponentHeavyCasting[text()="1"]</xpath>
+    <value><Steel>100</Steel></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[starts-with(defName, "Engine")]/butcherProducts/ComponentHeavyCasting[text()="2"]</xpath>
+    <value><Steel>200</Steel></value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <xpath>/Defs/ThingDef[starts-with(defName, "Engine")]/butcherProducts/ComponentHeavyCasting[text()="3"]</xpath>
+    <value><Steel>300</Steel></value>
+  </Operation>
+
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/RecipeDef[defName="CastFromMold" or defName="ExtractMetalFromCasting"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ThingDef[defName="ComponentCastingmold" or defName="ComponentHeavyCasting"]</xpath>
+  </Operation>
+  <Operation Class="PatchOperationRemove">
+    <xpath>/Defs/ResearchProjectDef[defName="MoldCasting"]</xpath>
+  </Operation>
+</Patch>

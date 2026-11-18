@@ -19,7 +19,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HT_Blueprint"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>An old flatbed truck with room for a driver, one passenger, and up to 800 kg of cargo. The bed can be refitted for additional seating.</description>
                     </value>
                 </Operation>
                 <Operation Class="PatchOperationReplace">
@@ -30,9 +30,9 @@
                 </Operation>
 
                 <Operation Class="PatchOperationReplace">
-                    <xpath>/Defs/Vehicles.VehicleDef[defName="VVE_BangBus"]/description</xpath>
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="HT_A"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>An old flatbed truck with room for a driver, one passenger, and up to 800 kg of cargo. The bed can be refitted for additional seating.</description>
                     </value>
                 </Operation>
 

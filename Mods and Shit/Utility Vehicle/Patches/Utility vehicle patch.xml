@@ -18,7 +18,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="UV_Blueprint"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A light utility jeep for moving a small crew and their gear over rough ground.</description>
                     </value>
                 </Operation>
                 <Operation Class="PatchOperationReplace">
@@ -31,7 +31,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="UV_A"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A light utility jeep for moving a small crew and their gear over rough ground.</description>
                     </value>
                 </Operation>
 

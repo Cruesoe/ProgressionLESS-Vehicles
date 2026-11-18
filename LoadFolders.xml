@@ -8,12 +8,13 @@
     <li IfModActive="oskarpotocki.vanillavehiclesexpanded">Mods and Shit/VE Vehicles</li>
     <li IfModActive="chaotic.rvinterior">Mods and Shit/Vehicle Interior Framework</li>
     <li IfModActive="oskarpotocki.vanillavehiclesexpandedtier3">Mods and Shit/VVE Tier 3</li>
-    <li IfModActive="OELS.VehicleMapFramework">Mods and Shit/Vehicle Map Framework</li>
-    <li IfModActive="jahv.spacervehicleshal.continued">Mods and Shit/Titan Vehicles</li>
+    <li IfModActive="OELS.VehicleMapFramework,OELS.VehicleMapFramework.dev">Mods and Shit/Vehicle Map Framework</li>
+    <!-- <li IfModActive="jahv.spacervehicleshal.continued">Mods and Shit/Titan Vehicles</li> -->
     <li IfModActive="he.fbbus">Mods and Shit/HE-Ford B700 Bus 87</li>
     <li IfModActive="killerbot.subaruforester">Mods and Shit/GTek Subaru Forester</li>
     <li IfModActive="he.ct">Mods and Shit/HE-Chevrolet Tahoe 07</li>
     <li IfModActive="he.f350a">Mods and Shit/HE-Ford F350 Ambulance 90</li>
     <li IfModActive="he.fcvpi">Mods and Shit/HE-Ford Crown Victoria Police Interceptor 99</li>
+    <li IfModActive="aoba.motorization.engine">Mods and Shit/Engine Industries</li>
   </v1.6>
 </loadFolders>

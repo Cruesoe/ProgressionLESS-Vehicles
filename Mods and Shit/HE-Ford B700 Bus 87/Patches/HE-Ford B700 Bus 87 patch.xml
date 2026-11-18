@@ -27,7 +27,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_FordBBus_Blueprint"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A medium-duty bus with seating for 28 passengers, plus a driver. It can move a large group and its luggage in one trip.</description>
                     </value>
                 </Operation>
                 <Operation Class="PatchOperationReplace">
@@ -40,7 +40,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="HE_FordBBus"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A medium-duty bus with seating for 28 passengers, plus a driver. It can move a large group and its luggage in one trip.</description>
                     </value>
                 </Operation>
 
@@ -60,20 +60,20 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HE_FordBBusG_Blueprint"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A government-style passenger bus with seating for 28 passengers, plus a driver. It has the same carrying capacity as the civilian bus.</description>
                     </value>
                 </Operation>
                 <Operation Class="PatchOperationReplace">
-                    <xpath>/Defs/Vehicles.VehicleDef[defName="HE_FordBBus"]/label</xpath>
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="HE_FordBBusG"]/label</xpath>
                     <value>
                         <label>passenger bus (government style)</label>
                     </value>
                 </Operation>
 
                 <Operation Class="PatchOperationReplace">
-                    <xpath>/Defs/Vehicles.VehicleDef[defName="HE_FordBBus"]/description</xpath>
+                    <xpath>/Defs/Vehicles.VehicleDef[defName="HE_FordBBusG"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A government-style passenger bus with seating for 28 passengers, plus a driver. It has the same carrying capacity as the civilian bus.</description>
                     </value>
                 </Operation>
 

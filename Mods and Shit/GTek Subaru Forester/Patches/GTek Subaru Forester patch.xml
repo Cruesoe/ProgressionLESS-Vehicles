@@ -21,7 +21,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="HID_98Forester_Blueprint"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A five-seat station wagon with all-wheel drive. It handles rough roads and icy ground better than a typical passenger car.</description>
                     </value>
                 </Operation>
                 <Operation Class="PatchOperationReplace">
@@ -34,7 +34,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleDef[defName="HID_98Forester"]/description</xpath>
                     <value>
-                        <description>text.todo</description>
+                        <description>A five-seat station wagon with all-wheel drive. It handles rough roads and icy ground better than a typical passenger car.</description>
                     </value>
                 </Operation>
 
