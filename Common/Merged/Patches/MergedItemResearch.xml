@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+
+  <!-- Items keep research their merged project doesn't need -->
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/RecipeDef[defName="Make_EngineAssemble_TurboJet"]/researchPrerequisites</xpath>
+    <match Class="PatchOperationAdd">
+      <xpath>/Defs/RecipeDef[defName="Make_EngineAssemble_TurboJet"]/researchPrerequisites</xpath>
+      <value><li>MicroelectronicsBasics</li></value>
+    </match>
+    <nomatch Class="PatchOperationConditional">
+      <xpath>/Defs/RecipeDef[defName="Make_EngineAssemble_TurboJet"]</xpath>
+      <match Class="PatchOperationAdd">
+        <xpath>/Defs/RecipeDef[defName="Make_EngineAssemble_TurboJet"]</xpath>
+        <value><researchPrerequisites><li>MicroelectronicsBasics</li></researchPrerequisites></value>
+      </match>
+    </nomatch>
+  </Operation>
+
+</Patch>

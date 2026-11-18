@@ -42,7 +42,7 @@
 
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/RecipeDef[defName="Make_EngineAssemble_Heavy"]/researchPrerequisite</xpath>
-    <value><researchPrerequisite>Ferny_HeavyEngine</researchPrerequisite></value>
+    <value><researchPrerequisite>Ferny_JetEngine</researchPrerequisite></value>
   </Operation>
 
   <Operation Class="PatchOperationReplace">
@@ -64,22 +64,20 @@
     <xpath>/Defs/ResearchProjectDef[
       defName="VVE_ComplexVehicles"
       or defName="VVE_AerialVehicles"
-      or defName="Ferny_FamilyCar"
+      or defName="Ferny_BasicCar"
     ]/prerequisites</xpath>
     <value><li>EnginePlus</li></value>
   </Operation>
 
   <Operation Class="PatchOperationAdd">
     <xpath>/Defs/ResearchProjectDef[
-      defName="Ferny_APC"
+      defName="Ferny_ArmoredCar"
       or defName="Ferny_FieldCarrier"
-      or defName="Ferny_LargeBoat"
+      or defName="Ferny_SmallBoat"
       or defName="Ferny_HeavyPlatformTruck"
-      or defName="VVE_BigRigs"
       or defName="VVE_LightArmoredVehicles"
-      or defName="VVE_RocketArtillery"
     ]/prerequisites</xpath>
-    <value><li>Ferny_HeavyEngine</li></value>
+    <value><li>Ferny_JetEngine</li></value>
   </Operation>
 
   <Operation Class="PatchOperationAdd">
@@ -88,10 +86,21 @@
       defName="Ferny_LandCarrierPlatform"
       or defName="VVE_BattleTanks"
       or defName="VVE_Cherokee"
-      or defName="VVE_Louie"
       or defName="VVE_SiegePods"
-      or defName="VVE_SelfpropelledArtillery"
     ]/prerequisites</xpath>
+    <value><li>EngineAdvanced</li></value>
+  </Operation>
+
+  <!-- Projects folded into Tier 3's merged projects keep their engine gate on their vehicles -->
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_BigRig_Blueprint" or defName="VVE_Hermano_Blueprint"]/researchPrerequisites</xpath>
+    <value><li>Ferny_JetEngine</li></value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <success>Always</success>
+    <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Louie_Blueprint" or defName="VVE_Udar_Blueprint"]/researchPrerequisites</xpath>
     <value><li>EngineAdvanced</li></value>
   </Operation>
 </Patch>

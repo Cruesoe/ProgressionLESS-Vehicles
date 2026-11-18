@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <loadFolders>
   <v1.6>
+    <!-- Listed first so its patches run after every other folder's -->
+    <li>Common/Merged</li>
     <li>/</li>
     <li>Common</li>
     <li IfModActive="ferny.noderesearch">Common/Mods and Shit/Node Research</li>
@@ -21,6 +23,8 @@
     <li IfModActive="aoba.motorization.engine">Common/Mods and Shit/Engine Industries</li>
   </v1.6>
   <v1.7>
+    <!-- Listed first so its patches run after every other folder's -->
+    <li>Common/Merged</li>
     <li>/</li>
     <li>Common</li>
     <li IfModActive="ferny.noderesearch">Common/Mods and Shit/Node Research</li>

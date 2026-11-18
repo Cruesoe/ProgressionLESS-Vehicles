@@ -1,9 +1,9 @@
-<Patch>
+<?xml version="1.0" encoding="utf-8"?><Patch>
 
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="SCWintermuteBlueprint"]/researchPrerequisites</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_SnowCrawler</li></researchPrerequisites>
+                        <researchPrerequisites><li>Ferny_FlatbedCargoTruck</li></researchPrerequisites>
                     </value>
                 </Operation>
 

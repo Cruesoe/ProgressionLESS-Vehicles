@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>              
 
 
@@ -79,18 +79,6 @@
                 </Operation>
 
                 <!-- VVE_SuperCars -->
-                <Operation Class="PatchOperationReplace">
-                    <xpath>/Defs/ResearchProjectDef[defName="VVE_SuperCars"]/researchViewX</xpath>
-                    <value>
-                        <researchViewX>5.00</researchViewX>
-                    </value>
-                </Operation>
-                <Operation Class="PatchOperationReplace">
-                    <xpath>/Defs/ResearchProjectDef[defName="VVE_SuperCars"]/researchViewY</xpath>
-                    <value>
-                        <researchViewY>4.30</researchViewY>
-                    </value>
-                </Operation>
 
                 <!-- VVE_BattleTanks -->
                 <Operation Class="PatchOperationReplace">
@@ -186,15 +174,11 @@
 <!-- COMPLEX VEHICLES -> PICKUP TRUCK -->
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="VVE_ComplexVehicles"]/label</xpath>
-                    <value>
-                        <label>pickup truck</label>
-                    </value>
+                    <value><label>trucks</label></value>
                 </Operation>
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="VVE_ComplexVehicles"]/description</xpath>
-                    <value>
-                        <description>Build a fast truck with high cargo capacity and great fuel efficiency on the world map. Good for traveling on flat roads, but will struggle on hills, snow or winter.</description>
-                    </value>
+                    <value><description>Build trucks for hauling cargo: basic small trucks that carry a lot over long distances on paved roads, and fast pickup trucks with high cargo capacity and great fuel efficiency on the world map. Both struggle on hills, snow or winter.</description></value>
                 </Operation>
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="VVE_ComplexVehicles"]/baseCost</xpath>
@@ -204,9 +188,7 @@
                 </Operation>
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="VVE_ComplexVehicles"]/prerequisites</xpath>
-                    <value>
-                        <prerequisites><li>Ferny_SmallTruck</li></prerequisites>
-                    </value>
+                    <value><prerequisites><li>VVE_BasicVehicles</li></prerequisites></value>
                 </Operation>
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/ResearchProjectDef[defName="VVE_ComplexVehicles"]/researchViewX</xpath>
@@ -260,7 +242,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Scytheman_Blueprint"]/researchPrerequisites</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_RocketArtillery</li></researchPrerequisites>
+                        <researchPrerequisites><li>Ferny_FlameTank</li></researchPrerequisites>
                     </value>
                 </Operation>
 
@@ -281,7 +263,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Toad_Blueprint"]/researchPrerequisites</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_SiegePod</li></researchPrerequisites>
+                        <researchPrerequisites><li>Ferny_RocketPod</li></researchPrerequisites>
                     </value>
                 </Operation>
 
@@ -294,9 +276,7 @@
 
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Mule_Blueprint"]/researchPrerequisites</xpath>
-                    <value>
-                        <researchPrerequisites><li>Ferny_SmallTruck</li></researchPrerequisites>
-                    </value>
+                    <value><researchPrerequisites><li>VVE_ComplexVehicles</li></researchPrerequisites></value>
                 </Operation>
 
                 <Operation Class="PatchOperationReplace">

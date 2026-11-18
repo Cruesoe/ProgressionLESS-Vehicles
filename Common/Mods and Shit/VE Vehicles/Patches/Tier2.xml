@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
 
 
@@ -48,7 +48,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Mosquito_Blueprint"]/researchPrerequisites</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_Helicopter</li></researchPrerequisites>
+                        <researchPrerequisites><li>Ferny_Helicopter</li><li>MicroelectronicsBasics</li></researchPrerequisites>
                     </value>
                 </Operation>
 
@@ -59,14 +59,14 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Tango_Blueprint"]/researchPrerequisites</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_APC</li></researchPrerequisites>
+                        <researchPrerequisites><li>Ferny_ArmoredCar</li></researchPrerequisites>
                     </value>
                 </Operation>
 
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Warbird_Blueprint"]/researchPrerequisites</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_FighterPlane</li></researchPrerequisites>
+                        <researchPrerequisites><li>Ferny_Helicopter</li></researchPrerequisites>
                     </value>
                 </Operation>
 
@@ -90,7 +90,7 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Mosquito_Blueprint"]/researchPrerequisites</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_Helicopter</li></researchPrerequisites>
+                        <researchPrerequisites><li>Ferny_Helicopter</li><li>MicroelectronicsBasics</li></researchPrerequisites>
                     </value>
                 </Operation>
 
@@ -100,28 +100,28 @@
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Trawler_Blueprint"]/researchPrerequisites</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_LargeBoat</li></researchPrerequisites>
+                        <researchPrerequisites><li>Ferny_SmallBoat</li></researchPrerequisites>
                     </value>
                 </Operation>
 
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Wagon_Blueprint"]/researchPrerequisites</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_FamilyCar</li></researchPrerequisites>
+                        <researchPrerequisites><li>Ferny_BasicCar</li></researchPrerequisites>
                     </value>
                 </Operation>
 
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Snatcher_Blueprint"]/researchPrerequisites</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_LargeVan</li></researchPrerequisites>
+                        <researchPrerequisites><li>Ferny_SmallVan</li></researchPrerequisites>
                     </value>
                 </Operation>
 
                 <Operation Class="PatchOperationReplace">
                     <xpath>/Defs/Vehicles.VehicleBuildDef[defName="VVE_Charley_Blueprint"]/researchPrerequisites</xpath>
                     <value>
-                        <researchPrerequisites><li>Ferny_Motorcycle</li></researchPrerequisites>
+                        <researchPrerequisites><li>Ferny_DirtBike</li></researchPrerequisites>
                     </value>
                 </Operation>
 

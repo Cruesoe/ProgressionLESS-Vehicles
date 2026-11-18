@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Patch>
-  <!-- Patch the original gates; variants without their own gate inherit it. -->
+  <!-- Garage doors unlock with Automobiles, after the door project of whichever Furniture mod is active; variants without their own gate inherit it. -->
   <Operation Class="PatchOperationReplace">
     <xpath>/Defs/ThingDef[defName="VVE_GarageDoor" or defName="VVE_GarageAutoDoor"]/researchPrerequisites
       | /Defs/ThingDef/researchPrerequisites[li="GDE_BiggerGarageDoors" or li="GDE_ArmoredDoors"
         or li="BHD_BoathouseDoors" or li="BHD_ArmoredBoathouseDoors"]</xpath>
     <value>
       <researchPrerequisites Inherit="False">
-        <li>Ferny_GarageDoors</li>
+        <li>VVE_BasicVehicles</li>
+        <li MayRequire="ferny.progressionfurniture">Ferny_Door</li>
+        <li MayRequire="cruesoe.progressionlessfurniture">Ferny_Column</li>
       </researchPrerequisites>
     </value>
   </Operation>

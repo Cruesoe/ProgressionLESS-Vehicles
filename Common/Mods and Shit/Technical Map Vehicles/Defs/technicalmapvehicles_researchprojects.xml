@@ -1,34 +1,34 @@
-<?xml version="1.0" encoding="utf-8" ?>
+<?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
 
-	<ResearchProjectDef>
-		<defName>Ferny_HeavyPlatformTruck</defName>
-		<label>Heavy platform truck</label>
-		<description>Build a heavy-duty truck with a vast building platform on its bed, perfect for mounting weapons or transporting large amounts of equipment or other vehicles. It has excellent cargo capacity but is less fuel-efficient.</description>
-		<baseCost>1500</baseCost>
-		<tab>Vehicles</tab>
-		<techLevel>Industrial</techLevel>
-		<researchViewX>7.50</researchViewX>
-		<researchViewY>2.20</researchViewY>
-		<prerequisites>
-			<li>Ferny_LargeVan</li>
-		</prerequisites>
-	</ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>Ferny_HeavyPlatformTruck</defName>
+    <label>Heavy platform truck</label>
+    <description>Build a heavy-duty truck with a vast building platform on its bed, perfect for mounting weapons or transporting large amounts of equipment or other vehicles. It has excellent cargo capacity but is less fuel-efficient.</description>
+    <baseCost>1500</baseCost>
+    <tab>Vehicles</tab>
+    <techLevel>Industrial</techLevel>
+    <researchViewX>7.50</researchViewX>
+    <researchViewY>2.20</researchViewY>
+    <prerequisites>
+      <li>Ferny_SmallVan</li>
+    </prerequisites>
+  </ResearchProjectDef>
 
-	<ResearchProjectDef>
-		<defName>Ferny_LandCarrierPlatform</defName>
-		<label>Land carrier platform</label>
-		<description>Build a behemoth moving platform, capable of sustaining a entire civilization on its surface.</description>
-		<baseCost>5000</baseCost>
-		<techLevel>Industrial</techLevel>
-		<tab>Vehicles</tab>
-		<researchViewX>8.50</researchViewX>
-		<researchViewY>2.20</researchViewY>
-		<prerequisites>
-			<li>Ferny_HeavyPlatformTruck</li>
-		</prerequisites>
-	</ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>Ferny_LandCarrierPlatform</defName>
+    <label>Land carrier platform</label>
+    <description>Build a behemoth moving platform, capable of sustaining a entire civilization on its surface.</description>
+    <baseCost>5000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>Vehicles</tab>
+    <researchViewX>8.50</researchViewX>
+    <researchViewY>2.20</researchViewY>
+    <prerequisites>
+      <li>Ferny_HeavyPlatformTruck</li>
+    </prerequisites>
+  </ResearchProjectDef>
 
 
 

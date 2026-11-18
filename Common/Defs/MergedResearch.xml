@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <ResearchProjectDef>
+    <defName>Ferny_FlameTank</defName>
+    <label>armed vehicles</label>
+    <description>Build improvised armed vehicles: a light flame tank with fireproof plating and chemfuel tanks that burns enemies and fortifications, and a farm tractor repurposed to carry a rack of explosive rockets. Neither is fuel-efficient on the world map.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>Vehicles</tab>
+    <researchViewX>6.00</researchViewX>
+    <researchViewY>0.90</researchViewY>
+    <prerequisites>
+      <li>MicroelectronicsBasics</li>
+      <li>VVE_BasicVehicles</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_Helicopter</defName>
+    <label>aircraft</label>
+    <description>Build fast aircraft: a small helicopter that carries more cargo than an off-roader but needs a landing pad, and a fighter plane with minimal cargo capacity, made to engage other aircraft. Aircraft are very easy to notice.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>Vehicles</tab>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>0.80</researchViewY>
+    <prerequisites>
+      <li>VVE_AerialVehicles</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef MayRequireAnyOf="ht.lunartika,zal.snowcrawler">
+    <defName>Ferny_FlatbedCargoTruck</defName>
+    <label>heavy haulers</label>
+    <description>Build heavy work vehicles: flatbed cargo trucks for hauling bulk supplies, and slow, noisy snowcrawlers that cross snow and winter terrain without trouble.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>Vehicles</tab>
+    <researchViewX>30.00</researchViewX>
+    <researchViewY>3.00</researchViewY>
+    <prerequisites>
+      <li>VVE_BasicVehicles</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_SmallVan</defName>
+    <label>vans and buses</label>
+    <description>Build vehicles that carry many people: minivans and vans with high passenger space, and, with the right mods, passenger buses and light utility jeeps. They do best on paved roads and struggle in hills, snow and winter.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>Vehicles</tab>
+    <researchViewX>4.50</researchViewX>
+    <researchViewY>2.20</researchViewY>
+    <prerequisites>
+      <li>Ferny_BasicCar</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef MayRequire="aoba.motorization.engine">
+    <defName>Ferny_JetEngine</defName>
+    <label>advanced engines</label>
+    <description>Assemble heavy engines and jet engines.</description>
+    <baseCost>2000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>HeavyIndustry</tab>
+    <researchViewX>7.00</researchViewX>
+    <researchViewY>4.15</researchViewY>
+    <prerequisites>
+      <li>EnginePlus</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_DirtBike</defName>
+    <label>motorbikes</label>
+    <description>Build motorbikes for a single rider: dirt bikes that cross any terrain but carry no cargo, and motorcycles that carry a little cargo and are fuel-efficient on the world map. Both struggle in snow and winter.</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>Vehicles</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>2.90</researchViewY>
+    <prerequisites>
+      <li>VVE_BasicVehicles</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_SmallBoat</defName>
+    <label>boats</label>
+    <description>Build motorized boats: small boats with good cargo capacity but high fuel use, and larger vessels with high cargo capacity, good fuel efficiency and low visibility. Boats have trouble with winter and river currents.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>Vehicles</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>3.70</researchViewY>
+    <prerequisites>
+      <li>VVE_BasicVehicles</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_BasicCar</defName>
+    <label>cars</label>
+    <description>Build automobiles: makeshift cars that are fast but carry only a couple of people, and all-purpose passenger cars with good passenger and cargo capacity and high fuel efficiency. Cars do best on smooth roads.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>Vehicles</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>2.20</researchViewY>
+    <prerequisites>
+      <li>VVE_BasicVehicles</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_ArmoredCar</defName>
+    <label>armored cars</label>
+    <description>Build armored vehicles for troops: lightly armored cars that provide mobile fire support, and armored personnel carriers with hardened armor, good cargo capacity and all-terrain support. Both are weaker in the rear.</description>
+    <baseCost>1500</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>Vehicles</tab>
+    <researchViewX>30.00</researchViewX>
+    <researchViewY>3.00</researchViewY>
+    <prerequisites>
+      <li>Ferny_BasicCar</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef>
+    <defName>Ferny_RocketPod</defName>
+    <label>drop pods</label>
+    <description>Build reusable pods: rocket pods fitted with thrusters that move much faster than transport pods, and heavily armored siege pods with a siege gun on top that work as deployable bunkers. Both use a lot of fuel.</description>
+    <baseCost>1000</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>Vehicles</tab>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>0.10</researchViewY>
+    <prerequisites>
+      <li>TransportPod</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+  <ResearchProjectDef MayRequireAnyOf="oels.vehiclemapframework,oels.vehiclemapframework.dev">
+    <defName>Ferny_PlatformLogistics</defName>
+    <label>mobile platforms</label>
+    <description>Manage resources and traversal of platform vehicles, and build improvement modules for them.</description>
+    <baseCost>1200</baseCost>
+    <techLevel>Industrial</techLevel>
+    <tab>Vehicles</tab>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>5.50</researchViewY>
+    <prerequisites>
+      <li>VVE_BasicVehicles</li>
+    </prerequisites>
+  </ResearchProjectDef>
+
+</Defs>
