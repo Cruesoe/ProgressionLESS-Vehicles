@@ -625,6 +625,27 @@
       <li>VVE_LightArmoredVehicles</li>
     </value>
   </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef/comps/li/researchDef[.="VVE_SuperCars"]</xpath>
+    <value>
+      <researchDef>VVE_ClassicCars</researchDef>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef/comps/li/researchDef[.="VVE_BigRigs"]</xpath>
+    <value>
+      <researchDef>VVE_OffroadJeeps</researchDef>
+    </value>
+  </Operation>
+  <Operation Class="PatchOperationReplace">
+    <success>Always</success>
+    <xpath>Defs/ThingDef/comps/li/researchDef[.="VVE_RocketArtillery" or .="VVE_SelfpropelledArtillery" or .="VVE_Louie"]</xpath>
+    <value>
+      <researchDef>VVE_LightArmoredVehicles</researchDef>
+    </value>
+  </Operation>
   <Operation Class="PatchOperationRemove">
     <xpath>Defs/ResearchProjectDef[defName="VVE_SuperCars" or defName="VVE_BigRigs" or defName="VVE_RocketArtillery" or defName="VVE_SelfpropelledArtillery" or defName="VVE_Louie"]</xpath>
   </Operation>
