@@ -9,6 +9,7 @@
     <tab>Vehicles</tab>
     <prerequisites>
       <li MayRequire="ferny.progressionfurniture">Ferny_Door</li>
+      <li MayRequire="cruesoe.progressionlessfurniture">Ferny_Column</li>
     </prerequisites>
     <researchViewX>0.00</researchViewX>
     <researchViewY>4.50</researchViewY>
