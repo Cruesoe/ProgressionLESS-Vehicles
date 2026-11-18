@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+  <!-- Node Research adds this cluster only for ferny.progressionvehicles -->
+  <BetterResearchMenu.ResearchClusterDef>
+    <defName>Ferny_CloudVehicles</defName>
+    <label>Vehicles</label>
+    <color>(0.40, 0.60, 0.46)</color>
+    <priority>2</priority>
+    <maxDepth>2</maxDepth>
+    <seedMods>
+      <li>cruesoe.progressionlessvehicles</li>
+      <li>oskarpotocki.vanillavehiclesexpandedtier3</li>
+    </seedMods>
+  </BetterResearchMenu.ResearchClusterDef>
+
+</Defs>

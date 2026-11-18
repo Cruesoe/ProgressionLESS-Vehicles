@@ -3,6 +3,7 @@
   <v1.6>
     <li>/</li>
     <li>Common</li>
+    <li IfModActive="ferny.noderesearch">Common/Mods and Shit/Node Research</li>
     <li IfModActive="ht.lunartika">Common/Mods and Shit/Heavy Truck</li>
     <li IfModActive="zal.snowcrawler">Common/Mods and Shit/Snow Crawler</li>
     <li IfModActive="mo.technicalmapvehicles">Common/Mods and Shit/Technical Map Vehicles</li>
@@ -22,6 +23,7 @@
   <v1.7>
     <li>/</li>
     <li>Common</li>
+    <li IfModActive="ferny.noderesearch">Common/Mods and Shit/Node Research</li>
     <li IfModActive="ht.lunartika">Common/Mods and Shit/Heavy Truck</li>
     <li IfModActive="zal.snowcrawler">Common/Mods and Shit/Snow Crawler</li>
     <li IfModActive="mo.technicalmapvehicles">Common/Mods and Shit/Technical Map Vehicles</li>
