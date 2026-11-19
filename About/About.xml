@@ -21,13 +21,11 @@ For a really good modpack, check out The Progression Modpack on the Steam Worksh
   <modDependencies>
     <li>
       <packageId>OskarPotocki.VanillaVehiclesExpanded</packageId>
-      <modVersion>261119</modVersion>
       <displayName>Vanilla Vehicles Expanded</displayName>
       <steamWorkshopUrl>steam://url/CommunityFilePage/3014906877</steamWorkshopUrl>
     </li>
     <li>
       <packageId>ferny.ReplaceLib</packageId>
-      <modVersion>261119</modVersion>
       <displayName>ReplaceLib</displayName>
       <steamWorkshopUrl>steam://url/CommunityFilePage/3417393194</steamWorkshopUrl>
     </li>
