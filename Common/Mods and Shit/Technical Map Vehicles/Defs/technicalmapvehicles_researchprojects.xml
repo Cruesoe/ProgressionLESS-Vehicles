@@ -4,7 +4,7 @@
 
   <ResearchProjectDef>
     <defName>Ferny_HeavyPlatformTruck</defName>
-    <label>Heavy platform truck</label>
+    <label>heavy platform truck</label>
     <description>Build a heavy-duty truck with a vast building platform on its bed, perfect for mounting weapons or transporting large amounts of equipment or other vehicles. It has excellent cargo capacity but is less fuel-efficient.</description>
     <baseCost>1500</baseCost>
     <tab>Vehicles</tab>
@@ -18,7 +18,7 @@
 
   <ResearchProjectDef>
     <defName>Ferny_LandCarrierPlatform</defName>
-    <label>Land carrier platform</label>
+    <label>land carrier platform</label>
     <description>Build a behemoth moving platform, capable of sustaining a entire civilization on its surface.</description>
     <baseCost>5000</baseCost>
     <techLevel>Industrial</techLevel>

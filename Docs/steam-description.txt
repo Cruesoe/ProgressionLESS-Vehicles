@@ -1,0 +1,67 @@
+[b]All the Progression goodness, less research.[/b]
+
+[i]This is a fork of [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3841677765]Progression: Vehicles[/url] by ferny. Huge thanks to ferny for the original mod and all the Progression work this builds on. For a really good modpack, check out [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3521297585]The Progression Modpack[/url].[/i]
+
+[h2]Features[/h2]
+[list]
+[*]Remixes Vanilla Vehicles Expanded's vehicles into a full progression on the Vehicles tab, from makeshift cars and dirt bikes to tanks, aircraft and land carrier platforms.
+[*]Gives vehicles clearer names and descriptions, such as the makeshift car, the minivan and the freight truck.
+[*]Moves the transport pod onto the Vehicles tab, after aircraft.
+[*]Places Ocean Expansion's sailing research in the Neolithic and Medieval eras.
+[*]With Engine Industries, ties its engines to vehicle research.
+[/list]
+
+[h2]Why "LESS"?[/h2]
+Progression: Vehicles adds up to [b]34 research projects[/b] depending on your mods. This fork cuts that to [b]at most 19[/b]:
+[list]
+[*][b]Gangplank[/b] (Neolithic, with Ocean Expansion)
+[*][b]Crow's nest[/b] and [b]Grappling launcher[/b] (Medieval, with Ocean Expansion)
+[*][b]Cars[/b] (Industrial): makeshift car and passenger cars
+[*][b]Motorbikes[/b] (Industrial): dirt bike and motorcycle
+[*][b]Boats[/b] (Industrial): small boat and large boat
+[*][b]Vans and buses[/b] (Industrial): minivan and van, plus passenger buses and the light utility jeep with their mods
+[*][b]Armored cars[/b] (Industrial): armored car and armored personnel carrier
+[*][b]Armed vehicles[/b] (Industrial): flame tank and rocket artillery
+[*][b]Aircraft[/b] (Industrial): helicopter and fighter plane
+[*][b]Drop pods[/b] (Industrial): rocket pod and siege pod
+[*][b]Field carrier[/b] and [b]Light tank[/b] (Industrial)
+[*][b]Heavy haulers[/b] (Industrial, with Heavy Truck or Snow Crawler): flatbed cargo truck and snowcrawler
+[*][b]Heavy platform truck[/b] and [b]Land carrier platform[/b] (Industrial, with Technical Map Vehicles)
+[*][b]Motorhome[/b] (Industrial, with Vehicle Interior Framework)
+[*][b]Mobile platforms[/b] (Industrial, with Vehicle Map Framework): platform logistics and upgrades
+[*][b]Advanced engines[/b] (Industrial, with Engine Industries): heavy and jet engines
+[/list]
+Everything else unlocks with the research it already builds on:
+[list]
+[*]Garage doors: [b]Automobiles[/b], plus Carpentry with ProgressionLESS: Furniture or the door project with Progression: Furniture
+[*]Small truck: Vanilla Vehicles Expanded's pickup truck project, now [b]Trucks[/b]
+[/list]
+With Vanilla Vehicles Expanded - Tier 3, its projects are grouped too:
+[list]
+[*][b]Utility vehicles[/b]: off-road jeep, freight truck and refrigerated truck
+[*][b]Military vehicles[/b]: assault carrier, armored scout, missile artillery truck, artillery tank and military helicopter
+[*][b]Sports cars[/b]: vintage car and supercar
+[/list]
+Everything stays in the same era, and still needs the other research it did before.
+
+[h2]Compatibility[/h2]
+Needs Vanilla Vehicles Expanded. Supports:
+[list]
+[*]Vanilla Vehicles Expanded - Tier 3
+[*]Vehicle Map Framework, with Ocean Expansion
+[*]Technical Map Vehicles
+[*]Vehicle Interior Framework
+[*]Heavy Truck
+[*]Utility Vehicle
+[*]Snow Crawler (Continued)
+[*]Engine Industries
+[*]HE-Ford B700 Bus '87, HE-Chevrolet Tahoe '07, HE-Ford F350 Ambulance '90 and HE-Ford Crown Victoria Police Interceptor '99
+[*]GTek's Vehicles - 1998 Subaru Forester
+[*]Garage Doors Expanded and Boathouse
+[*]ProgressionLESS: Furniture and Progression: Furniture
+[*]Node Research
+[/list]
+
+[b]Replaces the original. Don't use both.[/b]
+
+[b]Switching mid-game isn't recommended.[/b] Many of the original's research projects are merged or removed, so swapping Progression: Vehicles for this fork in an existing save can lose research progress. Start a new game when you switch.

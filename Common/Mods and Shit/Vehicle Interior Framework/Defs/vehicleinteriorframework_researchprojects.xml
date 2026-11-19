@@ -3,7 +3,7 @@
 
   <ResearchProjectDef>
     <defName>Ferny_Motorhome</defName>
-    <label>Motorhome</label>
+    <label>motorhome</label>
     <description>Build a self-contained mobile dwelling, designed for a portable life on the rim. Can be entered like a structure, offering a compact interior with space to rest, store supplies, and shelter from the elements. Though cramped it provides a novel luxury, a home that moves with you. Ideal for a nomadic lifestyle.</description>
     <baseCost>2000</baseCost>
     <techLevel>Industrial</techLevel>

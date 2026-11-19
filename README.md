@@ -4,6 +4,6 @@
 
 Overhauls vehicle research, so every vehicle and vehicle part has a place in the research tree.
 
-The "LESS" is less research: Progression: Vehicles adds up to N research projects depending on your mods. This fork groups them into at most M, such as A, B and C. Everything stays in the same era, and still needs the other research it did before.
+The "LESS" is less research: Progression: Vehicles adds up to 34 research projects depending on your mods. This fork groups them into at most 19, such as cars, boats and aircraft, and groups Vanilla Vehicles Expanded - Tier 3's projects too. Everything stays in the same era, and still needs the other research it did before.
 
 Forked from [Progression: Vehicles](https://steamcommunity.com/sharedfiles/filedetails/?id=3841677765) by ferny. Huge thanks to ferny for the original mod and all the Progression work this builds on. For a really good modpack, check out [The Progression Modpack](https://steamcommunity.com/sharedfiles/filedetails/?id=3521297585).

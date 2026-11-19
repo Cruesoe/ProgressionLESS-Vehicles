@@ -2,7 +2,7 @@
 <Defs>
   <ResearchProjectDef MayRequire="oels.mapvehicles.oceanexpansion">
     <defName>Ferny_Gangplank</defName>
-    <label>Gangplank</label>
+    <label>gangplank</label>
     <description>Build gangplanks to cross between boats.</description>
     <baseCost>400</baseCost>
     <techLevel>Neolithic</techLevel>

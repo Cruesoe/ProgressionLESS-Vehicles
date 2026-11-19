@@ -37,8 +37,8 @@
     <baseCost>1000</baseCost>
     <techLevel>Industrial</techLevel>
     <tab>Vehicles</tab>
-    <researchViewX>30.00</researchViewX>
-    <researchViewY>3.00</researchViewY>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>2.90</researchViewY>
     <prerequisites>
       <li>VVE_BasicVehicles</li>
     </prerequisites>
@@ -121,8 +121,8 @@
     <baseCost>1500</baseCost>
     <techLevel>Industrial</techLevel>
     <tab>Vehicles</tab>
-    <researchViewX>30.00</researchViewX>
-    <researchViewY>3.00</researchViewY>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>2.20</researchViewY>
     <prerequisites>
       <li>Ferny_BasicCar</li>
     </prerequisites>
