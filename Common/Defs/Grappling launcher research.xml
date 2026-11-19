@@ -2,7 +2,7 @@
 <Defs>
   <ResearchProjectDef MayRequire="oels.mapvehicles.oceanexpansion">
     <defName>Ferny_GrapplingLauncher</defName>
-    <label>Grappling launcher</label>
+    <label>grappling launcher</label>
     <description>Build grappling launchers to move between boats using mooring rings.</description>
     <baseCost>500</baseCost>
     <techLevel>Medieval</techLevel>

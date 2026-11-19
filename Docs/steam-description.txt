@@ -33,7 +33,7 @@ Progression: Vehicles adds up to [b]34 research projects[/b] depending on your m
 [/list]
 Everything else unlocks with the research it already builds on:
 [list]
-[*]Garage doors: [b]Automobiles[/b]
+[*]Garage doors: [b]Automobiles[/b], plus Carpentry with ProgressionLESS: Furniture or the door project with Progression: Furniture
 [*]Small truck: Vanilla Vehicles Expanded's pickup truck project, now [b]Trucks[/b]
 [/list]
 With Vanilla Vehicles Expanded - Tier 3, its projects are grouped too:

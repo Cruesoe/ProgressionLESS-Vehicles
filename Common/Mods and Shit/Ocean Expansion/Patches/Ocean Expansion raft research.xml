@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ResearchProjectDef[defName="MVO_ExpandableRaft"]/baseCost</xpath>
+        <value>
+          <baseCost>600</baseCost>
+        </value>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs/ResearchProjectDef[defName="MVO_ExpandableRaft"]</xpath>
+        <value>
+          <prerequisites>
+            <li MayRequire="oskarpotocki.vfe.tribals">VFET_Construction</li>
+          </prerequisites>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>

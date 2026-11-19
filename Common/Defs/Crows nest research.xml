@@ -2,7 +2,7 @@
 <Defs>
   <ResearchProjectDef MayRequire="oels.mapvehicles.oceanexpansion">
     <defName>Ferny_CrowsNest</defName>
-    <label>Crow's nest</label>
+    <label>crow's nest</label>
     <description>Build mast-mounted lookouts to spot islands and shipwrecks.</description>
     <baseCost>400</baseCost>
     <techLevel>Medieval</techLevel>

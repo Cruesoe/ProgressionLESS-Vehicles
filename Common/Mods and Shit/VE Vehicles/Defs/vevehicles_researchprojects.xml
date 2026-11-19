@@ -1,50 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
 
-<!-- Tier 1 -->
-
-<!-- Civillian car branch -->
-
-  <!-- <ResearchProjectDef>
-    <defName>Ferny_OffRoader</defName>
-    <label>Off-roader</label>
-    <tab>Vehicles</tab>
-    <description>Build an off-road explorer made to travel in difficult terrain of any kind. Has decent cargo and fuel efficiency. It's not the fastest vehicle and can be a bit too visible, but still faster than walking.</description>
-    <baseCost>1000</baseCost>
-    <techLevel>Industrial</techLevel>
-    <researchViewX>30.00</researchViewX>
-    <researchViewY>3.00</researchViewY>
-    <prerequisites>
-      <li>VVE_BasicVehicles</li>
-    </prerequisites>
-  </ResearchProjectDef> -->
-
-
-  <!-- I think this is the first vehicle you get -->
-
-
-
-
-
-<!-- Tier 2 -->
-
-  <!-- <ResearchProjectDef>
-    <defName>Ferny_Aeroplane</defName>
-    <label>Aeroplane</label>
-    <description>Build a small airplane that moves extremely fast and can carry more cargo than an helicopter, but requires a landing strip. It is very visible, like any aircraft. It has a regular fuel efficiency on the world map, but makes up for it in speed.</description>
-    <baseCost>2000</baseCost>
-    <tab>Vehicles</tab>
-    <techLevel>Industrial</techLevel>
-    <researchViewX>30.00</researchViewX>
-    <researchViewY>3.00</researchViewY>
-    <prerequisites>
-      <li>VVE_BasicVehicles</li>
-    </prerequisites>
-  </ResearchProjectDef> -->
-
   <ResearchProjectDef>
     <defName>Ferny_FieldCarrier</defName>
-    <label>Field carrier</label>
+    <label>field carrier</label>
     <description>Build a large truck meant to deliver troops and supplies away from the base. It can move well in rough terrain, but the fuel efficiency is low, and passengers in the back will lack protection.</description>
     <baseCost>1500</baseCost>
     <tab>Vehicles</tab>
@@ -58,7 +17,7 @@
 
   <ResearchProjectDef>
     <defName>Ferny_LightTank</defName>
-    <label>Light tank</label>
+    <label>light tank</label>
     <description>Build a small tank with light armor. It's very cheap and easy to assemble, but very loud and vulnerable in the rear. They aren't very fast or accurate and use a lot of fuel, and are best used in short-range engagements.</description>
     <baseCost>1200</baseCost>
     <tab>Vehicles</tab>

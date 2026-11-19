@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationSequence">
+    <operations>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ResearchProjectDef[defName="MVO_ExpandableRaft"]/description</xpath>
+        <value>
+          <description>Build an expandable raft made of pieces. The first invention that enabled humanity to cross the ocean.</description>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ResearchProjectDef[defName="MVO_Keel"]/description</xpath>
+        <value>
+          <description>Build a ship's hull using early technology. It's narrow but reasonably sturdy.</description>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ResearchProjectDef[defName="MVO_Roundnose"]/description</xpath>
+        <value>
+          <description>Build a massive, robust ship's hull. It is reinforced with iron. It will surely prove its worth in battle.</description>
+        </value>
+      </li>
+      <li Class="PatchOperationReplace">
+        <xpath>/Defs/ResearchProjectDef[defName="MVO_Pontoon"]/description</xpath>
+        <value>
+          <description>Build a comfortable boat with excellent space efficiency. Additional decks can be added. It is, in a sense, a raft built with advanced technology.</description>
+        </value>
+      </li>
+    </operations>
+  </Operation>
+</Patch>
